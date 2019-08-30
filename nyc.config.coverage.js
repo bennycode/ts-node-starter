@@ -1,4 +1,6 @@
-module.exports = {
+const defaultConfig = require("./nyc.config");
+
+module.exports = Object.assign({}, defaultConfig, {
   all: true,
   branches: 100,
   "check-coverage": true,
@@ -6,4 +8,4 @@ module.exports = {
   lines: 100,
   reporter: ["html"],
   statements: 100
-};
+});
