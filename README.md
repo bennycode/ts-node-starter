@@ -15,5 +15,5 @@ TEXT
 ## ❯ Usage
 
 ```typescript
-TEXT;
+// TEXT
 ```
