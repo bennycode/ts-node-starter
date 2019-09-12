@@ -32,7 +32,7 @@
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "name": "ts-node-starter",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bennyn/ts-node-starter.git"
