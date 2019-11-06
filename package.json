@@ -2,7 +2,7 @@
   "dependencies": {},
   "description": "",
   "devDependencies": {
-    "@types/jasmine": "3.4.5",
+    "@types/jasmine": "3.4.6",
     "eslint": "6.6.0",
     "eslint-config-prettier": "6.5.0",
     "eslint-plugin-no-unsanitized": "3.0.2",
