@@ -9,15 +9,7 @@
       true,
       {
         "alphabetize": true,
-        "order": [
-          "public-instance-field",
-          "private-instance-field",
-          "public-constructor",
-          "private-constructor",
-          "public-instance-method",
-          "protected-instance-method",
-          "private-instance-method"
-        ]
+        "order": ["public-instance-field", "private-instance-field", "public-constructor", "private-constructor", "public-instance-method", "protected-instance-method", "private-instance-method"]
       }
     ],
     "no-console": true,
@@ -42,13 +34,7 @@
     "prettier": true,
     "space-within-parens": [true, 0],
     "typedef": [true, "call-signature"],
-    "variable-name": [
-      true,
-      "allow-leading-underscore",
-      "allow-pascal-case",
-      "ban-keywords",
-      "check-format"
-    ]
+    "variable-name": [true, "allow-leading-underscore", "allow-pascal-case", "ban-keywords", "check-format"]
   },
   "linterOptions": {
     "exclude": ["**/bower_components/**", "**/dist/**", "**/node_modules/**"]
