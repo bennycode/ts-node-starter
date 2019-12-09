@@ -1,10 +1,10 @@
-import { MyClass } from "./MyClass";
+import {MyClass} from './MyClass';
 
-describe("MyClass", () => {
-  describe("returnHello", () => {
-    it("returns Hello", () => {
+describe('MyClass', () => {
+  describe('returnHello', () => {
+    it('returns Hello', () => {
       const myInstance = new MyClass();
-      expect(myInstance.returnHello()).toBe("Hello");
+      expect(myInstance.returnHello()).toBe('Hello');
     });
   });
 });

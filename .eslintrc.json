@@ -3,15 +3,17 @@
     "browser": true,
     "node": true
   },
+  "parser": "@typescript-eslint/parser",
   "extends": ["prettier", "plugin:no-unsanitized/DOM"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
     "ecmaVersion": 8,
+    "project": "./tsconfig.json",
     "sourceType": "module"
   },
-  "plugins": ["prettier", "no-unsanitized"],
+  "plugins": ["@typescript-eslint", "prettier", "no-unsanitized"],
   "rules": {
     "curly": 2,
     "dot-notation": 2,
