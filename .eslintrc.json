@@ -4,16 +4,6 @@
     "node": true
   },
   "extends": ["prettier", "plugin:no-unsanitized/DOM"],
-  "overrides": [
-    {
-      "files": ["*.ts", "*.tsx"],
-      "rules": {
-        "@typescript-eslint/explicit-function-return-type": "error",
-        "@typescript-eslint/member-ordering": "error",
-        "@typescript-eslint/typedef": "error"
-      }
-    }
-  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -25,6 +15,14 @@
   },
   "plugins": ["@typescript-eslint", "prettier", "no-unsanitized"],
   "rules": {
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/member-ordering": [
+      "error",
+      {
+        "default": ["public-instance-field", "private-instance-field", "public-constructor", "private-constructor", "public-instance-method", "protected-instance-method", "private-instance-method"]
+      }
+    ],
+    "@typescript-eslint/typedef": "error",
     "curly": "error",
     "dot-notation": "error",
     "no-const-assign": "error",
