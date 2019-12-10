@@ -2,14 +2,6 @@
   "arrowParens": "avoid",
   "bracketSpacing": false,
   "jsxBracketSameLine": true,
-  "overrides": [
-    {
-      "files": ["*.json"],
-      "options": {
-        "printWidth": 200
-      }
-    }
-  ],
   "printWidth": 120,
   "proseWrap": "never",
   "requirePragma": false,
