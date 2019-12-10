@@ -21,7 +21,15 @@
     "@typescript-eslint/member-ordering": [
       "error",
       {
-        "default": ["public-instance-field", "private-instance-field", "public-constructor", "private-constructor", "public-instance-method", "protected-instance-method", "private-instance-method"]
+        "default": [
+          "public-instance-field",
+          "private-instance-field",
+          "public-constructor",
+          "private-constructor",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
       }
     ],
     "@typescript-eslint/no-floating-promises": "error",
