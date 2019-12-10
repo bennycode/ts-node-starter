@@ -16,6 +16,7 @@
   "plugins": ["@typescript-eslint", "prettier", "no-unsanitized"],
   "rules": {
     "@typescript-eslint/array-type": "error",
+    "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/explicit-function-return-type": "error",
     "@typescript-eslint/member-ordering": [
       "error",
@@ -25,6 +26,7 @@
     ],
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/no-namespace": "error",
+    "@typescript-eslint/no-this-alias": "error",
     "@typescript-eslint/prefer-for-of": "error",
     "@typescript-eslint/prefer-readonly": "error",
     "@typescript-eslint/typedef": "error",
@@ -33,13 +35,17 @@
     "no-console": "error",
     "no-const-assign": "error",
     "no-dupe-class-members": "error",
+    "no-duplicate-case": "error",
     "no-duplicate-imports": "error",
     "no-else-return": "error",
     "no-inner-declarations": "error",
     "no-lonely-if": "error",
+    "no-redeclare": "error",
     "no-return-await": "error",
+    "no-sequences": "error",
     "no-shadow": "error",
     "no-sparse-arrays": "error",
+    "no-template-curly-in-string": "error",
     "no-unneeded-ternary": "error",
     "no-unused-expressions": "error",
     "no-unused-vars": [
