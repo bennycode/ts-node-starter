@@ -1,4 +1,7 @@
 {
+  "bugs": {
+    "url": "https://github.com/bennyn/ts-node-starter/issues"
+  },
   "dependencies": {},
   "description": "",
   "devDependencies": {
@@ -18,9 +21,6 @@
     "pretty-quick": "2.0.1",
     "rimraf": "3.0.0",
     "ts-node": "8.6.0",
-    "tslint": "5.20.1",
-    "tslint-config-prettier": "1.18.0",
-    "tslint-plugin-prettier": "2.1.0",
     "typescript": "3.7.4"
   },
   "engines": {
@@ -28,13 +28,15 @@
     "yarn": ">= 1"
   },
   "files": [
-    "dist"
+    "dist",
+    "!dist/**/*.test.*"
   ],
+  "homepage": "https://github.com/bennyn/ts-node-starter#readme",
   "keywords": [],
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "name": "ts-node-starter",
-  "private": false,
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bennyn/ts-node-starter.git"
