@@ -31,7 +31,7 @@
     "dist",
     "!dist/**/*.test.*"
   ],
-  "homepage": "https://github.com/bennyn/ts-node-starter#readme",
+  "homepage": "https://documentup.com/bennyn/ts-node-starter",
   "keywords": [],
   "license": "UNLICENSED",
   "main": "dist/index.js",
