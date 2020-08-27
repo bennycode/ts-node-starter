@@ -41,6 +41,7 @@
     "@typescript-eslint/typedef": "off",
     "curly": "error",
     "dot-notation": "error",
+    "no-cond-assign": "error",
     "no-console": [
       "error",
       {
