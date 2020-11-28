@@ -1,15 +1,15 @@
 {
   "all": true,
-  "branches": 50,
+  "branches": 100,
   "check-coverage": true,
-  "exclude": ["**/*.d.ts", "**/*.test*.ts", "**/index.ts", "**/demo/**/*"],
+  "exclude": ["**/*.d.ts", "**/*.test*.ts", "**/index.ts", "**/start.ts", "**/demo/**/*"],
   "extension": [".ts"],
-  "functions": 50,
+  "functions": 100,
   "include": ["src/**/*.ts"],
-  "lines": 50,
+  "lines": 100,
   "per-file": false,
   "reporter": ["html", "lcov"],
   "require": ["ts-node/register"],
   "skip-full": true,
-  "statements": 50
+  "statements": 100
 }
