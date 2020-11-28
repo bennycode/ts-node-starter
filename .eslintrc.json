@@ -42,12 +42,7 @@
     "curly": "error",
     "dot-notation": "error",
     "no-cond-assign": "error",
-    "no-console": [
-      "error",
-      {
-        "allow": ["error", "info", "warn"]
-      }
-    ],
+    "no-console":"off",
     "no-const-assign": "error",
     "no-dupe-class-members": "error",
     "no-duplicate-case": "error",
