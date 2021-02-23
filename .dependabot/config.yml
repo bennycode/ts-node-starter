@@ -13,3 +13,7 @@ update_configs:
           update_type: 'all'
     target_branch: 'main'
     version_requirement_updates: 'auto'
+    ignore:
+      - dependency-name: 'husky'
+        versions:
+          - '>= 5'
