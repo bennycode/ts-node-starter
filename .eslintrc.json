@@ -13,20 +13,21 @@
     "project": "./tsconfig.json",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "typescript-sort-keys", "prettier", "sort-keys-fix"],
+  "plugins": ["@typescript-eslint", "typescript-sort-keys", "prettier", "sort-keys-fix", "unused-imports"],
   "rules": {
     "@typescript-eslint/array-type": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
-    "@typescript-eslint/explicit-function-return-type": "error",
-    "@typescript-eslint/no-floating-promises": "error",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/member-ordering": "off",
+    "@typescript-eslint/no-floating-promises": ["error", {"ignoreIIFE": true}],
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/no-this-alias": "error",
-    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/prefer-for-of": "off",
-    "@typescript-eslint/prefer-readonly": "off",
+    "@typescript-eslint/prefer-readonly": "error",
     "@typescript-eslint/typedef": "off",
     "curly": "error",
-    "dot-notation": "error",
+    "dot-notation": "off",
     "no-cond-assign": "error",
     "no-console": "off",
     "no-const-assign": "error",
@@ -48,6 +49,10 @@
     "no-useless-return": "error",
     "no-var": "error",
     "one-var": ["error", "never"],
+    "padding-line-between-statements": [
+      "error",
+      {"blankLine": "always", "prev": "import", "next": ["export", "expression"]}
+    ],
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
     "prefer-promise-reject-errors": "error",
@@ -65,6 +70,7 @@
     "sort-vars": "error",
     "space-in-parens": "error",
     "strict": ["error", "global"],
+    "unused-imports/no-unused-imports-ts": "error",
     "typescript-sort-keys/interface": ["warn", "asc", {"caseSensitive": false}],
     "typescript-sort-keys/string-enum": ["warn", "asc", {"caseSensitive": false}]
   }
