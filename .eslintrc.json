@@ -36,6 +36,7 @@
     "no-duplicate-imports": "error",
     "no-else-return": "error",
     "no-inner-declarations": "error",
+    "no-invalid-this": "error",
     "no-lonely-if": "error",
     "no-redeclare": "error",
     "no-return-await": "error",
