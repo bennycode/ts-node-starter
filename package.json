@@ -1,6 +1,6 @@
 {
   "bugs": {
-    "url": "https://github.com/bennyn/ts-node-starter/issues"
+    "url": "https://github.com/bennycode/ts-node-starter/issues"
   },
   "dependencies": {},
   "description": "",
@@ -33,7 +33,7 @@
     "dist",
     "!dist/**/*.test.*"
   ],
-  "homepage": "https://documentup.com/bennyn/ts-node-starter",
+  "homepage": "https://documentup.com/bennycode/ts-node-starter",
   "keywords": [],
   "license": "UNLICENSED",
   "main": "dist/index.js",
@@ -41,7 +41,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bennyn/ts-node-starter.git"
+    "url": "git+https://github.com/bennycode/ts-node-starter.git"
   },
   "scripts": {
     "build": "tsc",
