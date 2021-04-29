@@ -1,0 +1,22 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "02:00"
+  pull-request-branch-name:
+    separator: "-"
+  open-pull-requests-limit: 99
+  target-branch: main
+  ignore:
+  - dependency-name: husky
+    versions:
+    - "^5.x"
+  - dependency-name: "@typescript-eslint/parser"
+    versions:
+    - 4.16.1
+    - 4.21.0
+  commit-message:
+    prefix: chore
+    include: scope
