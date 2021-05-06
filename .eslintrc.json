@@ -25,6 +25,7 @@
         "ignoreIIFE": true
       }
     ],
+    "@typescript-eslint/no-dupe-class-members": ["error"],
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/no-this-alias": "error",
     "@typescript-eslint/no-unused-vars": "off",
@@ -37,7 +38,7 @@
     "no-cond-assign": "error",
     "no-console": "off",
     "no-const-assign": "error",
-    "no-dupe-class-members": "error",
+    "no-dupe-class-members": "off",
     "no-duplicate-case": "error",
     "no-duplicate-imports": "error",
     "no-else-return": "error",
