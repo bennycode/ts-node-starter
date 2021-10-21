@@ -8,22 +8,27 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [12.x]
+        node-version: [16.x]
     steps:
-      - name: 'Checkout repository'
+      - name: 'Checkout Git repository with history for all branches and tags'
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
       - name: 'Use Node.js ${{ matrix.node-version }}'
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Install, lint, and test
+
+      - name: 'Install, lint, and test'
         run: |
-          yarn install
+          yarn install --frozen-lockfile
           yarn lint
           yarn test
         if: |
           contains(github.event.commits[0].message, '[skip ci]') == false &&
           contains(github.event.commits[0].message, '[ci skip]') == false
+
       - name: 'Upload coverage reports to Codecov'
         uses: codecov/codecov-action@v1.0.5
         with:
