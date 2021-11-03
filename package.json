@@ -65,7 +65,7 @@
     "release:minor": "generate-changelog -m -x \"chore,test\" && yarn changelog:commit && npm version minor",
     "release:patch": "generate-changelog -p -x \"chore,test\" && yarn changelog:commit && npm version patch",
     "start": "ts-node ./src/start.ts",
-    "test": "cross-env NODE_ENV=test jest ./src",
+    "test": "cross-env NODE_ENV=test jest ./src --passWithNoTests",
     "test:coverage": "yarn test --coverage",
     "test:types": "yarn lint:types"
   },
