@@ -1,6 +1,6 @@
 {
   "collectCoverage": false,
-  "collectCoverageFrom": ["**/*.{ts,tsx}", "!**/*.d.ts", "!**/index.ts", "!**/start.ts"],
+  "collectCoverageFrom": ["**/*.{ts,tsx}", "!**/*.d.ts", "!**/index.ts", "!**/start*.ts"],
   "coverageReporters": ["html", "lcov", "text"],
   "coverageThreshold": {
     "global": {
