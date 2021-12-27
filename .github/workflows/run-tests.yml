@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  'Build':
+  run-tests:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -17,12 +17,12 @@ jobs:
         node-version: [16.x]
     steps:
       - name: 'Checkout Git repository with history for all branches and tags'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.4.0
         with:
           fetch-depth: 0
 
       - name: 'Use Node.js ${{ matrix.node-version }}'
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.5.0
         with:
           node-version: ${{ matrix.node-version }}
 
@@ -36,10 +36,10 @@ jobs:
           contains(github.event.commits[0].message, '[ci skip]') == false
 
       - name: 'Upload coverage reports to Codecov'
-        uses: codecov/codecov-action@v1.0.5
+        uses: codecov/codecov-action@v2.1.0
         with:
           fail_ci_if_error: false
-          file: ./coverage/lcov.info
+          files: ./coverage/lcov.info
           flags: unittests
-          token: ${{ secrets.CODECOV_TOKEN }}
+          verbose: false
           yml: ./codecov.yml
