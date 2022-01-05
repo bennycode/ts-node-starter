@@ -12,7 +12,7 @@ updates:
     open-pull-requests-limit: 99
     target-branch: main
     ignore:
-      - dependency-name: husky
+      - dependency-name: 'husky'
         versions:
           - '>= 5'
     commit-message:
