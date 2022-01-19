@@ -6,7 +6,7 @@
   "description": "",
   "devDependencies": {
     "@types/jest": "27.4.0",
-    "@types/node": "17.0.8",
+    "@types/node": "17.0.10",
     "@typescript-eslint/eslint-plugin": "5.9.0",
     "@typescript-eslint/parser": "5.10.0",
     "cross-env": "7.0.3",
