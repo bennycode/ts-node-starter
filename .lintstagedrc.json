@@ -1,3 +1,6 @@
 {
-  "*.{js,jsx,ts,tsx}": ["yarn fix:code"]
+  "*.{js,jsx,ts,tsx}": [
+    "eslint --ignore-path .gitignore --fix --quiet",
+    "prettier --ignore-path .gitignore --loglevel error --write"
+  ]
 }
