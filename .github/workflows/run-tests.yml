@@ -15,7 +15,7 @@ jobs:
         node-version: [16.x]
     steps:
       - name: 'Checkout Git repository with history for all branches and tags'
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
