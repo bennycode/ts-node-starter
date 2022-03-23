@@ -12,12 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
     steps:
-      - name: Extract information about the dependency
-        id: metadata
-        uses: dependabot/fetch-metadata@v1.3.0
-        with:
-          github-token: ${{ secrets.GH_AUTOMERGE_TOKEN }}
-
       - name: Automatically merge the dependency
         run: gh pr merge --auto --squash "$PR_URL"
         env:
