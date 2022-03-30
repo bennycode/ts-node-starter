@@ -35,12 +35,12 @@
     "dist",
     "!dist/**/*.test.*"
   ],
-  "homepage": "https://documentup.com/bennycode/ts-node-starter",
+  "homepage": "https://www.npmjs.com/package/ts-node-starter",
   "keywords": [],
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "name": "ts-node-starter",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bennycode/ts-node-starter.git"
