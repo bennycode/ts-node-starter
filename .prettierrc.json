@@ -2,6 +2,7 @@
   "arrowParens": "avoid",
   "bracketSameLine": false,
   "bracketSpacing": false,
+  "endOfLine": "lf",
   "printWidth": 120,
   "proseWrap": "never",
   "requirePragma": false,
