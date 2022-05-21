@@ -2,7 +2,7 @@ pre-commit:
   parallel: false
   commands:
     eslint:
-      glob: '*.{.js,.jsx,.ts,.tsx}'
+      glob: '*.{js,jsx,ts,tsx}'
       run: yarn eslint {staged_files} --fix
     prettier:
       run: yarn pretty-quick --staged --ignore-path .gitignore
