@@ -2,7 +2,8 @@ pre-commit:
   parallel: true
   commands:
     eslint:
-      run: yarn eslint {staged_files} --write
+      files: git diff --name-only HEAD @{push}
+      glob: '*.{.js,.jsx,.ts,.tsx}'
+      run: yarn eslint {files} --fix
     prettier:
-      run: yarn prettier {staged_files} --fix
-
+      run: yarn prettier {staged_files} --write
