@@ -6,4 +6,4 @@ pre-commit:
       glob: '*.{.js,.jsx,.ts,.tsx}'
       run: yarn eslint {files} --fix
     prettier:
-      run: yarn prettier {staged_files} --write
+      run: yarn pretty-quick --staged --ignore-path .gitignore
