@@ -53,7 +53,7 @@
     "eslint": "eslint --ignore-path .gitignore --quiet",
     "fix": "yarn fix:other && yarn fix:code",
     "fix:code": "yarn lint:code --fix",
-    "fix:other": "yarn prettier:config --write",
+                "fix:other": "yarn prettier:config --write",
     "lint": "yarn lint:types && yarn lint:code && yarn lint:config",
     "lint:code": "yarn eslint --ext .js,.jsx,.ts,.tsx .",
     "lint:config": "yarn prettier:config --list-different",
