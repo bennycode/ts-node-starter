@@ -1,8 +1,8 @@
 pre-commit:
   parallel: false
   commands:
+    prettier:
+      run: yarn pretty-quick --staged --ignore-path .gitignore
     eslint:
       glob: '*.{js,jsx,ts,tsx}'
       run: yarn eslint {staged_files} --fix
-    prettier:
-      run: yarn prettier {staged_files} --write && exit 0
