@@ -1,9 +1,5 @@
 export class MyClass {
-  returnHello(): string
-
-
-
-  {
+  returnHello(): string {
     return 'Hello';
   }
 }
