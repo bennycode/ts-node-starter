@@ -1,0 +1,8 @@
+pre-commit:
+  parallel: true
+  commands:
+    eslint:
+      run: yarn eslint {staged_files} --write
+    prettier:
+      run: yarn prettier {staged_files} --fix
+
