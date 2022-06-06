@@ -1,3 +1,7 @@
 #!/usr/bin/env node
 
-console.log('I am Command Line Interface');
+export function sayHello(): string {
+  return 'I am Command Line Interface';
+}
+
+console.log(sayHello());
