@@ -2,18 +2,18 @@
 
 TEXT
 
-## ❯ Features
+## Features
 
 - TEXT
 
-## ❯ Installation
+## Installation
 
 ```bash
 TEXT
 ```
 
-## ❯ Usage
+## Usage
 
-```typescript
+```ts
 // TEXT
 ```
