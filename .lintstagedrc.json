@@ -1,6 +1,5 @@
 {
   "*.{js,jsx,ts,tsx}": [
-    "eslint --ignore-path .gitignore --fix --quiet",
-    "prettier --ignore-path .gitignore --loglevel error --write"
+    "eslint --ignore-path .gitignore --fix --quiet"
   ]
 }
