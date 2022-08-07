@@ -4,7 +4,7 @@ The **ts-node-starter** is a [template repository](https://docs.github.com/en/re
 
 ## Features
 
-1.**Automatic changelog generation** powered by [generate-changelog](https://github.com/lob/generate-changelog)
+1. **Automatic changelog generation** powered by [generate-changelog](https://github.com/lob/generate-changelog)
 1. **Automatic code & config formatting** powered by [Lefthook](https://github.com/evilmartians/lefthook)
 1. **Automatic dependency updates** powered by [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates)
 1. **Code coverage reports** powered by [Codecov](https://about.codecov.io/)
