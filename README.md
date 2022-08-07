@@ -7,6 +7,7 @@ The **ts-node-starter** is a [template repository](https://docs.github.com/en/re
 - **Automatic changelog generation** powered by [generate-changelog](https://github.com/lob/generate-changelog)
 - **Automatic code & config formatting** powered by [Lefthook](https://github.com/evilmartians/lefthook)
 - **Automatic dependency updates** powered by [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates)
+- **Code coverage reports** powered by [Codecov](https://about.codecov.io/)
 - **Config formatting** powered by [Prettier](https://prettier.io/)
 - **Continuous integration pipeline** powered by [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows)
 - **Cross-platform compatibility** powered by [cross-env](https://github.com/kentcdodds/cross-env)
