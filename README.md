@@ -1,6 +1,8 @@
 # ts-node-starter
 
-The **ts-node-starter** is a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) which makes it easy for you to start a new Node.js project with TypeScript. Using this template, you can build standalone apps, libraries and/or CLI tools. The **ts-node-starter** setup is easily customizable and comes with a lot of features included.
+The `ts-node-starter` scaffolding project is a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) which makes it easy for you to start a new Node.js project with TypeScript. 
+
+Using this template, you can build **standalone apps**, **libraries** and/or **CLI tools**. The `ts-node-starter` setup is configurable and comes with a lot of features included.
 
 ## Features
 
@@ -26,17 +28,15 @@ The **ts-node-starter** is a [template repository](https://docs.github.com/en/re
 3. Start writing your code in the ["src" directory](./src)
 4. Run `yarn` and be happy! 😊
 
-### Build a CLI
+### Build a standalone app
 
 **Source Code**
 
-If you want to build a CLI tool for Node.js, you can have a look at ["src/cli.ts"](./src/cli.ts).
+If you just want to write and run a Node.js app, checkout ["src/start.ts"](./src/start.ts).
 
 **References**
 
-In the ["package.json" file](./package.json) you will also discover a "bin" property which defines the executable name of your tool and the entry point to its transpiled JavaScript code.
-
-If you don't want to publish a CLI, simply remove the "bin" property and the CLI script.
+You can start your application by executing `yarn start`. If you want to debug your code, run `yarn debug` ([Debug Instructions](https://dev.to/typescripttv/debug-your-node-js-app-with-chrome-devtools-4c98)).
 
 ### Build a Library
 
@@ -48,15 +48,17 @@ If you want to distribute your code as a Node.js library on [npm](https://www.np
 
 In the ["package.json" file](./package.json) you will also discover a "main" property which defines the entry point to your library when it gets imported by other developers. The value of the "main" property has to point to the transpiled JavaScript code.
 
-### Build a standalone app
+### Build a CLI
 
 **Source Code**
 
-If you just want to write and run a Node.js app, checkout ["src/start.ts"](./src/start.ts).
+If you want to build a CLI tool for Node.js, you can have a look at ["src/cli.ts"](./src/cli.ts).
 
 **References**
 
-You can start your application by executing `yarn start`. If you want to debug your code, run `yarn debug` ([Debug Instructions](https://dev.to/typescripttv/debug-your-node-js-app-with-chrome-devtools-4c98)).
+In the ["package.json" file](./package.json) you will also discover a "bin" property which defines the executable name of your tool and the entry point to its transpiled JavaScript code.
+
+If you don't want to publish a CLI, simply remove the "bin" property and the CLI script.
 
 ## Conventions
 
