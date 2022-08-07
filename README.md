@@ -70,9 +70,13 @@ The automatic changelog generation is based on [Semantic Commit Messages](https:
 
 > feat: My new feature
 
-## Maintainers
+## Contributors
 
-[![Benny Neugebauer on Stack Exchange][stack_exchange_bennyn_badge]][stack_exchange_bennyn_url]
+[![Benny Neugebauer on Stack Exchange][stack_exchange_bennycode_badge]][stack_exchange_bennycode_url]
 
-[stack_exchange_bennyn_badge]: https://stackexchange.com/users/flair/203782.png?theme=default
-[stack_exchange_bennyn_url]: https://stackexchange.com/users/203782/benny-neugebauer?tab=accounts
+[![Panayiotis Lipiridis on Stack Exchange][stack_exchange_lipis_badge]][stack_exchange_lipis_url]
+
+[stack_exchange_bennycode_badge]: https://stackexchange.com/users/flair/203782.png?theme=default
+[stack_exchange_bennycode_url]: https://stackexchange.com/users/203782/benny-neugebauer?tab=accounts
+[stack_exchange_lipis_badge]: https://stackexchange.com/users/flair/5282.png?theme=default
+[stack_exchange_lipis_url]: https://stackexchange.com/users/5282/lipis?tab=accounts
