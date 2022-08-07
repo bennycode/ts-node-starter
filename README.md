@@ -21,9 +21,10 @@ The **ts-node-starter** is a [template repository](https://docs.github.com/en/re
 
 ### Make it your own
 
-1. Replace all occurrences of "bennycode" with your own username (or the name of your organization)
-2. Start writing your code in the ["src" directory](./src)
-3. Run `yarn` and be happy! 😊
+1. Replace all occurrences of "bennycode" with your own username (or organization name)
+2. Replace all occurrences of "ts-node-starter" with your project name (or repository name)
+3. Start writing your code in the ["src" directory](./src)
+4. Run `yarn` and be happy! 😊
 
 ### Build a CLI
 
