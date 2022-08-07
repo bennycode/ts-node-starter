@@ -4,17 +4,17 @@ The **ts-node-starter** is a [template repository](https://docs.github.com/en/re
 
 ## Features
 
-- **Static code analysis** powered by [ESLint](https://eslint.org/)
-- **Code formatting** powered by [Prettier](https://prettier.io/)
-- **Testing & code coverage** powered by [Jest](https://jestjs.io/)
-- **Distribution pipeline** powered by [npm](https://www.npmjs.com/)
-- **Automatic dependency updates** powered by [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates)
-- **Type checking** powered by [TypeScript](https://www.typescriptlang.org/)
-- **Cross-platform compatibility** powered by [cross-env](https://github.com/kentcdodds/cross-env)
 - **Automatic changelog generation** powered by [generate-changelog](https://github.com/lob/generate-changelog)
-- **Dependency management** powered by [yarn](https://yarnpkg.com/)
-- **Automatic code & config formatting** powered by [husky](https://github.com/typicode/husky), [lint-staged](https://github.com/okonet/lint-staged) & [pretty-quick](https://github.com/azz/pretty-quick)
+- **Automatic code & config formatting** powered by [Lefthook](https://github.com/evilmartians/lefthook)
+- **Automatic dependency updates** powered by [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates)
+- **Config formatting** powered by [Prettier](https://prettier.io/)
 - **Continuous integration pipeline** powered by [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows)
+- **Cross-platform compatibility** powered by [cross-env](https://github.com/kentcdodds/cross-env)
+- **Dependency management** powered by [yarn](https://yarnpkg.com/)
+- **Distribution pipeline** powered by [npm](https://www.npmjs.com/)
+- **Static code analysis** powered by [ESLint](https://eslint.org/)
+- **Testing & code coverage** powered by [Jest](https://jestjs.io/)
+- **Type checking** powered by [TypeScript](https://www.typescriptlang.org/)
 
 ## Usage
 
@@ -22,17 +22,17 @@ The **ts-node-starter** is a [template repository](https://docs.github.com/en/re
 
 1. Replace all occurrences of "bennycode" with your own username (or the name of your organization)
 2. Start writing your code in the ["src" directory](./src)
-3. There is no step 3 😁
+3. Run `yarn` and be happy! 😊
 
 ### Build a CLI
 
 **Source Code**
 
-If you want to build a CLI tool for Node.js, you can have a look at ["src/cli.ts"](./src/cli.ts). 
+If you want to build a CLI tool for Node.js, you can have a look at ["src/cli.ts"](./src/cli.ts).
 
 **References**
 
-In the ["package.json" file](./package.json) you will also discover a "bin" property which defines the executable name of your tool and the entry point to its transpiled JavaScript code. 
+In the ["package.json" file](./package.json) you will also discover a "bin" property which defines the executable name of your tool and the entry point to its transpiled JavaScript code.
 
 If you don't want to publish a CLI, simply remove the "bin" property and the CLI script.
 
@@ -40,7 +40,7 @@ If you don't want to publish a CLI, simply remove the "bin" property and the CLI
 
 **Source Code**
 
-If you want to distribute your code as a Node.js library on [npm](https://www.npmjs.com/), you can have a look at ["src/index.ts"](./src/index.ts). If you build a library, I recommend to always ship an index file from where you export the code of your library for others. 
+If you want to distribute your code as a Node.js library on [npm](https://www.npmjs.com/), you can have a look at ["src/index.ts"](./src/index.ts). If you build a library, I recommend to always ship an index file from where you export the code of your library for others.
 
 **References**
 
@@ -50,11 +50,11 @@ In the ["package.json" file](./package.json) you will also discover a "main" pro
 
 **Source Code**
 
-If you just want to write and run a Node.js app, checkout ["src/start.ts"](./src/start.ts). 
+If you just want to write and run a Node.js app, checkout ["src/start.ts"](./src/start.ts).
 
 **References**
 
-You can start your application by executing `yarn start`. If you want to debug your code, run `yarn debug` ([Debug Instructions](https://dev.to/typescripttv/debug-your-node-js-app-with-chrome-devtools-4c98)). 
+You can start your application by executing `yarn start`. If you want to debug your code, run `yarn debug` ([Debug Instructions](https://dev.to/typescripttv/debug-your-node-js-app-with-chrome-devtools-4c98)).
 
 ## Conventions
 
