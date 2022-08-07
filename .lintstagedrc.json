@@ -1,5 +1,3 @@
 {
-  "*.{js,jsx,ts,tsx}": [
-          "eslint --ignore-path .gitignore --fix --quiet"
-  ]
+  "*.{js,jsx,ts,tsx}": ["eslint --ignore-path .gitignore --fix --quiet"]
 }
