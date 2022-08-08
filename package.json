@@ -59,7 +59,6 @@
     "lint": "yarn lint:code && yarn lint:config",
     "lint:code": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx --no-error-on-unmatched-pattern .",
     "lint:config": "yarn prettier --list-different",
-    "postinstall": "lefthook install -a",
     "postversion": "git push origin && git push origin --tags && npm publish --access public",
     "prettier": "prettier --ignore-path .gitignore --loglevel error .",
     "preversion": "git checkout main && git pull && yarn && yarn test && yarn dist",
