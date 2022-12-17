@@ -924,6 +924,19 @@
   resolved "https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
+"@tstv/eslint-config@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/@tstv/eslint-config/-/eslint-config-0.1.0.tgz#e8ff1f2f98d7fbc2f6c5fce884d9ed8a452b43df"
+  integrity sha512-SktWNzVctHsS4/h2iTDiVCav50Eo7Sq9TJLMmN7PXNwHwV8ydgRF7Z1+85p/uRc4liKtVaPAWjGtTE0yahuAHQ==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "5.46.1"
+    "@typescript-eslint/parser" "5.46.1"
+    eslint-config-prettier "8.5.0"
+    eslint-plugin-prettier "4.2.1"
+    eslint-plugin-sort-keys-fix "1.1.2"
+    eslint-plugin-typescript-sort-keys "2.1.0"
+    eslint-plugin-unused-imports "2.0.0"
+
 "@tstv/tsconfig-common@0.0.3":
   version "0.0.3"
   resolved "https://registry.npmjs.org/@tstv/tsconfig-common/-/tsconfig-common-0.0.3.tgz#6184fb2f7cb7746a232c6ed4fd04ff01b6f5ec85"
