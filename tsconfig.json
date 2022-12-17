@@ -1,29 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "declaration": true,
-    "emitDecoratorMetadata": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "forceConsistentCasingInFileNames": true,
-    "importsNotUsedAsValues": "error",
-    "lib": ["es2017"],
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "newLine": "lf",
-    "noEmitOnError": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "outDir": "dist",
-    "removeComments": true,
-    "resolveJsonModule": true,
-    "rootDir": "src",
-    "sourceMap": true,
-    "strict": true,
-    "target": "es6"
+    "rootDir": "src"
   },
-  "exclude": ["coverage", "dist", "node_modules"]
+  "extends": "@tstv/tsconfig-common/tsconfig.json"
 }

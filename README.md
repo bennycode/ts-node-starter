@@ -74,6 +74,16 @@ The automatic changelog generation is based on [Semantic Commit Messages](https:
 
 > feat: My new feature
 
+## Troubleshooting
+
+If you're having trouble with the Git pre-commit hook, then reinstall the hook using the following command:
+
+```bash
+npx lefthook install -a
+```
+
+Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubleshooting)
+
 ## Important Refactorings
 
 - Replaced [husky](https://github.com/typicode/husky) with [Lefthook](https://github.com/evilmartians/lefthook) (https://github.com/bennycode/ts-node-starter/commit/9c4161509acf49e56042383c9ea340f68f248582)
