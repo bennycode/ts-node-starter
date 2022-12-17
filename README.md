@@ -86,10 +86,11 @@ Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubles
 
 ## Important Refactorings
 
-- Replaced [husky](https://github.com/typicode/husky) with [Lefthook](https://github.com/evilmartians/lefthook) (https://github.com/bennycode/ts-node-starter/commit/9c4161509acf49e56042383c9ea340f68f248582)
-- Replaced [action-dependabot-auto-merge](https://github.com/ahmadnassri/action-dependabot-auto-merge) with [Dependabot](https://github.com/dependabot) & [GitHub CLI](https://cli.github.com/) (https://github.com/bennycode/ts-node-starter/commit/86d5696113c2fb4907a1666e25d1b72d698b06a5)
-- Replaced [Jasmine](https://jasmine.github.io/) with [Jest](https://jestjs.io/) (https://github.com/bennycode/ts-node-starter/commit/41e9b42bb5b7ca364dbbabf1104955090003d1be)
-- Replaced [EditorConfig](https://editorconfig.org/) with [Prettier](https://prettier.io/) (https://github.com/bennycode/ts-node-starter/commit/2e24f7be5f427c26d6cc8281438a6398a211b75c)
+1. Replaced [EditorConfig](https://editorconfig.org/) with [Prettier](https://prettier.io/) (https://github.com/bennycode/ts-node-starter/commit/2e24f7be5f427c26d6cc8281438a6398a211b75c)
+1. Replaced [Jasmine](https://jasmine.github.io/) with [Jest](https://jestjs.io/) (https://github.com/bennycode/ts-node-starter/commit/41e9b42bb5b7ca364dbbabf1104955090003d1be)
+1. Replaced [action-dependabot-auto-merge](https://github.com/ahmadnassri/action-dependabot-auto-merge) with [Dependabot](https://github.com/dependabot) & [GitHub CLI](https://cli.github.com/) (https://github.com/bennycode/ts-node-starter/commit/86d5696113c2fb4907a1666e25d1b72d698b06a5)
+1. Replaced [husky](https://github.com/typicode/husky) with [Lefthook](https://github.com/evilmartians/lefthook) (https://github.com/bennycode/ts-node-starter/commit/9c4161509acf49e56042383c9ea340f68f248582)
+1. Replaced custom [ESLint](https://eslint.org/) Config with a [Shareable Config](https://eslint.org/docs/latest/developer-guide/shareable-configs) (https://github.com/bennycode/ts-node-starter/commit/eef59275e91f6f484f7a917fdd87b09318ebbad3)
 
 ## Contributors
 
