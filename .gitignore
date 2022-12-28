@@ -3,7 +3,8 @@
 .cache
 .DS_Store
 .idea/
-.vscode/
+.vscode/*
+!.vscode/settings.json
 .yarnclean
 config.json
 coverage/
