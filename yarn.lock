@@ -937,10 +937,10 @@
     eslint-plugin-typescript-sort-keys "2.1.0"
     eslint-plugin-unused-imports "2.0.0"
 
-"@tstv/tsconfig-common@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/@tstv/tsconfig-common/-/tsconfig-common-0.0.3.tgz#6184fb2f7cb7746a232c6ed4fd04ff01b6f5ec85"
-  integrity sha512-5JcH7dFPzvQ0mOry469kp3+zVIQ2b0dM8hXWwzxcJrmkcYa0+T0n8NIaAFJjzZnPiJDAXXpskePlpoxvCJVOAw==
+"@tstv/tsconfig-common@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/@tstv/tsconfig-common/-/tsconfig-common-0.2.0.tgz#f873d5a89f97ef3072ab4c36d65ffc8a3a18c0c2"
+  integrity sha512-zX1xnb1gA2eYOTGVHwTkfmszd81pdpdHM6EU/jpkmoFcnq6zW2KxqJuA+ija58845hBL4jWzLQTRdVPaFj4XTw==
 
 "@types/babel__core@^7.1.14":
   version "7.1.16"

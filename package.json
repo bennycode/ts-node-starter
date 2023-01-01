@@ -10,7 +10,7 @@
   "devDependencies": {
     "@evilmartians/lefthook": "1.2.6",
     "@tstv/eslint-config": "0.1.0",
-    "@tstv/tsconfig-common": "0.0.3",
+    "@tstv/tsconfig-common": "0.2.0",
     "@types/jest": "29.2.4",
     "@types/node": "18.11.17",
     "cross-env": "7.0.3",
