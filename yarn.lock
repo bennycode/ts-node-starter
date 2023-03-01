@@ -553,10 +553,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@evilmartians/lefthook@1.2.8":
-  version "1.2.8"
-  resolved "https://registry.npmjs.org/@evilmartians/lefthook/-/lefthook-1.2.8.tgz#b41406624a61ff32063344870c23694685e11079"
-  integrity sha512-M0QFRiX87SUBsPdS/vIOdauNTcLSgqh2iQzPVcsjkKapEFzBzQ5l3sGxeHVh20s/rrvCGZ3XpZ5M8+MCdho/sw==
+"@evilmartians/lefthook@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.npmjs.org/@evilmartians/lefthook/-/lefthook-1.3.2.tgz#171a32c526a4ddb92c080467e30a0005840e47cc"
+  integrity sha512-14In0zgpP9+fB+hdMXveUz0mgYDLU/FskQ4/zhtUXCAL3G9mJbpr9cR9h5Q8uMcFnzlWPQnowzmQjAkGnmA9xw==
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
