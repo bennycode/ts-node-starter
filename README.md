@@ -91,6 +91,7 @@ Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubles
 1. Replaced [action-dependabot-auto-merge](https://github.com/ahmadnassri/action-dependabot-auto-merge) with [Dependabot](https://github.com/dependabot) & [GitHub CLI](https://cli.github.com/) (https://github.com/bennycode/ts-node-starter/commit/86d5696113c2fb4907a1666e25d1b72d698b06a5)
 1. Replaced [husky](https://github.com/typicode/husky) with [Lefthook](https://github.com/evilmartians/lefthook) (https://github.com/bennycode/ts-node-starter/commit/9c4161509acf49e56042383c9ea340f68f248582)
 1. Replaced custom [ESLint](https://eslint.org/) Config with a [Shareable Config](https://eslint.org/docs/latest/developer-guide/shareable-configs) (https://github.com/bennycode/ts-node-starter/commit/eef59275e91f6f484f7a917fdd87b09318ebbad3)
+1. Replaced [@types/jest](https://www.npmjs.com/package/@types/jest) with [@jest/globals](https://jestjs.io/docs/getting-started#type-definitions) (https://github.com/bennycode/ts-node-starter/commit/73c5bc246de79ca2cc805a8b61e42bec39cb97fd)
 
 ## Contributors
 
