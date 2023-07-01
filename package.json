@@ -11,7 +11,7 @@
     "@evilmartians/lefthook": "1.4.1",
     "@tstv/eslint-config": "2.0.1",
     "@tstv/tsconfig-common": "2.0.0",
-    "@types/node": "20.2.5",
+    "@types/node": "20.3.3",
     "cross-env": "7.0.3",
     "eslint": "8.42.0",
     "generate-changelog": "1.8.0",
