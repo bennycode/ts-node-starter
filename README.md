@@ -18,6 +18,7 @@ Using this template, you can build **standalone apps**, **libraries** and/or **C
 1. **Static code analysis** powered by [ESLint](https://eslint.org/)
 1. **Testing & code coverage** powered by [Jest](https://jestjs.io/)
 1. **Type checking** powered by [TypeScript](https://www.typescriptlang.org/)
+1. **Streamlined scripts** powered by [Conventional Scripts](https://conventionalscripts.org/)
 
 ## Usage
 
