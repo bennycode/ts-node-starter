@@ -13,7 +13,7 @@ Using this template, you can build **standalone apps**, **libraries** and/or **C
 1. **Config formatting** powered by [Prettier](https://prettier.io/)
 1. **Continuous integration pipeline** powered by [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows)
 1. **Cross-platform compatibility** powered by [cross-env](https://github.com/kentcdodds/cross-env)
-1. **Dependency management** powered by [yarn](https://yarnpkg.com/)
+1. **Dependency management** powered by [npm](https://www.npmjs.com/)
 1. **Distribution pipeline** powered by [npm](https://www.npmjs.com/)
 1. **Static code analysis** powered by [ESLint](https://eslint.org/)
 1. **Testing & code coverage** powered by [Jest](https://jestjs.io/)
@@ -26,7 +26,7 @@ Using this template, you can build **standalone apps**, **libraries** and/or **C
 1. Replace all occurrences of "bennycode" with your own username (or organization name)
 2. Replace all occurrences of "ts-node-starter" with your project name (or repository name)
 3. Start writing your code in the ["src" directory](./src)
-4. Run `yarn` and be happy! 😊
+4. Run `npm install` and be happy! 😊
 
 ### Build a standalone app
 
