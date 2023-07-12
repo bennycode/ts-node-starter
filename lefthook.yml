@@ -2,7 +2,7 @@ pre-commit:
   parallel: false
   commands:
     1_prettier:
-      run: npm run pretty-quick --staged --ignore-path .gitignore
+      run: npx pretty-quick --staged --ignore-path .gitignore
     2_eslint:
       glob: '*.{js,jsx,ts,tsx}'
-      run: npm run eslint {staged_files} --fix
+      run: npx eslint {staged_files} --fix
