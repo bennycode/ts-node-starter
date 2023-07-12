@@ -24,8 +24,7 @@
     "typescript": "5.1.6"
   },
   "engines": {
-    "node": ">= 10.9",
-    "yarn": ">= 1"
+    "node": ">= 10.9"
   },
   "files": [
     "dist",
@@ -46,24 +45,24 @@
     "changelog:commit": "git add CHANGELOG.md && git commit -m \"docs: updated CHANGELOG.md\"",
     "clean": "rimraf .nyc_output coverage dist",
     "debug": "node --inspect -r ts-node/register ./src/start.ts",
-    "dist": "yarn clean && yarn build",
-    "fix": "yarn fix:config && yarn fix:code",
-    "fix:code": "yarn lint:code --fix --quiet",
-    "fix:config": "yarn prettier --write",
-    "lint": "yarn lint:code && yarn lint:config",
+    "dist": "npm run clean && npm run build",
+    "fix": "npm run fix:config && npm run fix:code",
+    "fix:code": "npm run lint:code --fix --quiet",
+    "fix:config": "npm run prettier --write",
+    "lint": "npm run lint:code && npm run lint:config",
     "lint:code": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx --no-error-on-unmatched-pattern .",
-    "lint:config": "yarn prettier --list-different",
+    "lint:config": "npm run prettier --list-different",
     "postversion": "git push origin && git push origin --tags && npm publish --access public",
     "prettier": "prettier --ignore-path .gitignore --loglevel error .",
-    "preversion": "git checkout main && git pull && yarn && yarn test && yarn dist",
-    "release:major": "generate-changelog -M -x \"chore,test\" && yarn changelog:commit && npm version major",
-    "release:minor": "generate-changelog -m -x \"chore,test\" && yarn changelog:commit && npm version minor",
-    "release:patch": "generate-changelog -p -x \"chore,test\" && yarn changelog:commit && npm version patch",
+    "preversion": "git checkout main && git pull && npm run && npm run test && npm run dist",
+    "release:major": "generate-changelog -M -x \"chore,test\" && npm run changelog:commit && npm version major",
+    "release:minor": "generate-changelog -m -x \"chore,test\" && npm run changelog:commit && npm version minor",
+    "release:patch": "generate-changelog -p -x \"chore,test\" && npm run changelog:commit && npm version patch",
     "start": "ts-node ./src/start.ts",
-    "test": "yarn test:types && yarn test:unit:coverage",
+    "test": "npm run test:types && npm run test:unit:coverage",
     "test:types": "tsc --noEmit",
     "test:unit": "cross-env NODE_ENV=test jest ./src --passWithNoTests",
-    "test:unit:coverage": "yarn test:unit --coverage"
+    "test:unit:coverage": "npm run test:unit --coverage"
   },
   "version": "0.0.0"
 }
