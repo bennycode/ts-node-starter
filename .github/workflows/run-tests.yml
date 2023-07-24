@@ -12,15 +12,13 @@ concurrency:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Test
-        uses: bennycode/actions/.github/workflows/test.yml@main
-      - name: Coverage
-        uses: codecov/codecov-action@v3.1.4
-        with:
-          fail_ci_if_error: false
-          files: ./coverage/lcov.info
-          flags: unittests
-          verbose: false
-          yml: ./codecov.yml
+    uses: bennycode/actions/.github/workflows/test.yml@main
+  coverage:
+    needs: [test]
+    uses: codecov/codecov-action@v3.1.4
+    with:
+      fail_ci_if_error: false
+      files: ./coverage/lcov.info
+      flags: unittests
+      verbose: false
+      yml: ./codecov.yml
