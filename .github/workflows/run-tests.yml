@@ -12,30 +12,9 @@ concurrency:
 
 jobs:
   test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node-version: [18.x]
+    runs-on: ubuntu-latest
     steps:
-      - name: 'Checkout Git repository with history for all branches and tags'
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: 'Use Node.js ${{ matrix.node-version }}'
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: 'Install, lint, and test'
-        run: |
-          yarn install --frozen-lockfile
-          yarn test
-        if: |
-          contains(github.event.commits[0].message, '[skip ci]') == false &&
-          contains(github.event.commits[0].message, '[ci skip]') == false
-
+      - uses: bennycode/actions/.github/workflows/test.yml@main
       - name: 'Upload coverage reports to Codecov'
         uses: codecov/codecov-action@v3.1.4
         with:
