@@ -12,4 +12,4 @@ concurrency:
 
 jobs:
   test:
-    - uses: bennycode/actions/.github/workflows/test.yml@main
+    uses: bennycode/actions/.github/workflows/test.yml@main
