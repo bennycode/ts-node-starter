@@ -12,14 +12,4 @@ concurrency:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: bennycode/actions/.github/workflows/test.yml@main
-      - name: 'Upload coverage reports to Codecov'
-        uses: codecov/codecov-action@v3.1.4
-        with:
-          fail_ci_if_error: false
-          files: ./coverage/lcov.info
-          flags: unittests
-          verbose: false
-          yml: ./codecov.yml
+    - uses: bennycode/actions/.github/workflows/test.yml@main
