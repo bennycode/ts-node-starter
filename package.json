@@ -62,7 +62,7 @@
     "test": "npm run test:types && npm run test:unit:coverage",
     "test:types": "tsc --noEmit",
     "test:unit": "cross-env NODE_ENV=test jest ./src --passWithNoTests",
-    "test:unit:coverage": "npm run test:unit --coverage"
+    "test:unit:coverage": "npm run test:unit -- --coverage"
   },
   "version": "0.0.0"
 }
