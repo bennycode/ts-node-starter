@@ -12,6 +12,6 @@ concurrency:
 
 jobs:
   test-coverage:
-    uses: bennycode/actions/.github/workflows/test-coverage.yml@v1
+    uses: bennycode/actions/.github/workflows/test-coverage.yml@v1.0.0
     secrets:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
