@@ -8,7 +8,7 @@
   "dependencies": {},
   "description": "",
   "devDependencies": {
-    "@evilmartians/lefthook": "1.4.5",
+    "@evilmartians/lefthook": "1.4.7",
     "@tstv/eslint-config": "2.0.1",
     "@tstv/tsconfig-common": "2.0.0",
     "@types/node": "18.17.0",
