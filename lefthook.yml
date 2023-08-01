@@ -1,8 +1,9 @@
 pre-commit:
-  parallel: false
+  parallel: true
   commands:
-    1_prettier:
-      run: npx pretty-quick --staged --ignore-path .gitignore
-    2_eslint:
+    config:
+      glob: '*.{md}'
+      run: npx prettier --write --loglevel error {staged_files}
+    code:
       glob: '*.{js,jsx,ts,tsx}'
       run: npx eslint {staged_files} --fix
