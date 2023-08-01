@@ -3,7 +3,7 @@ pre-commit:
   commands:
     config:
       glob: '*.{md,yaml,yml,css,scss,less,html,json}'
-      run: npx prettier --write --loglevel error {staged_files}
+      run: npx prettier --write --log-level error {staged_files}
     code:
       glob: '*.{js,jsx,ts,tsx}'
       run: npx eslint {staged_files} --fix
