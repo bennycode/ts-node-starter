@@ -2,7 +2,7 @@ pre-commit:
   parallel: true
   commands:
     config:
-      glob: '*.{md,yaml,yml,css,scss,less,html,json}'
+      glob: '*.{css,html,json,less,md,scss,yaml,yml}'
       run: npx prettier --write --log-level error {staged_files}
     code:
       glob: '*.{js,jsx,ts,tsx}'
