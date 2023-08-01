@@ -94,6 +94,7 @@ Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubles
 1. Replaced custom [ESLint](https://eslint.org/) Config with a [Shareable Config](https://eslint.org/docs/latest/developer-guide/shareable-configs) (https://github.com/bennycode/ts-node-starter/commit/eef59275e91f6f484f7a917fdd87b09318ebbad3)
 1. Replaced [@types/jest](https://www.npmjs.com/package/@types/jest) with [@jest/globals](https://jestjs.io/docs/getting-started#type-definitions) (https://github.com/bennycode/ts-node-starter/commit/73c5bc246de79ca2cc805a8b61e42bec39cb97fd)
 1. Replaced [Yarn 1](https://classic.yarnpkg.com/) with [npm](https://www.npmjs.com/) (https://github.com/bennycode/ts-node-starter/commit/153b726761db302fa3ba57ed1d71aabae01d8394)
+1. Replaced [pretty-quick](https://www.npmjs.com/package/pretty-quick) with [Prettier 3](https://prettier.io/) (https://github.com/bennycode/ts-node-starter/commit/7623ba894e6767d7da8ce5b8a1e2469639bcb027)
 
 ## Contributors
 
