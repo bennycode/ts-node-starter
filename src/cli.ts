@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-export function sayHello(): string {
-  return 'I am Command Line Interface';
-}
+import {sayHello} from './sayHello';
 
 console.log(sayHello());

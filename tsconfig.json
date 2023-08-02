@@ -2,8 +2,7 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "outDir": "dist",
-    "rootDir": "src"
+    "skipLibCheck": true
   },
-  "exclude": ["coverage"],
   "extends": "@tstv/tsconfig-common/tsconfig.json"
 }

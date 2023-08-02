@@ -12,11 +12,10 @@ Using this template, you can build **standalone apps**, **libraries** and/or **C
 1. **Code coverage reports** powered by [Codecov](https://about.codecov.io/)
 1. **Config formatting** powered by [Prettier](https://prettier.io/)
 1. **Continuous integration pipeline** powered by [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows)
-1. **Cross-platform compatibility** powered by [cross-env](https://github.com/kentcdodds/cross-env)
 1. **Dependency management** powered by [npm](https://www.npmjs.com/)
 1. **Distribution pipeline** powered by [npm](https://www.npmjs.com/)
 1. **Static code analysis** powered by [ESLint](https://eslint.org/)
-1. **Testing & code coverage** powered by [Jest](https://jestjs.io/)
+1. **Testing & code coverage** powered by [Vitest](https://vitest.dev/)
 1. **Type checking** powered by [TypeScript](https://www.typescriptlang.org/)
 1. **Streamlined scripts** powered by [Conventional Scripts](https://conventionalscripts.org/)
 
