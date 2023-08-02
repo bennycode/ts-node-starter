@@ -86,14 +86,15 @@ Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubles
 
 ## Important Refactorings
 
-1. Replaced [EditorConfig](https://editorconfig.org/) with [Prettier](https://prettier.io/) (https://github.com/bennycode/ts-node-starter/commit/2e24f7be5f427c26d6cc8281438a6398a211b75c)
-1. Replaced [Jasmine](https://jasmine.github.io/) with [Jest](https://jestjs.io/) (https://github.com/bennycode/ts-node-starter/commit/41e9b42bb5b7ca364dbbabf1104955090003d1be)
-1. Replaced [action-dependabot-auto-merge](https://github.com/ahmadnassri/action-dependabot-auto-merge) with [Dependabot](https://github.com/dependabot) & [GitHub CLI](https://cli.github.com/) (https://github.com/bennycode/ts-node-starter/commit/86d5696113c2fb4907a1666e25d1b72d698b06a5)
-1. Replaced [husky](https://github.com/typicode/husky) with [Lefthook](https://github.com/evilmartians/lefthook) (https://github.com/bennycode/ts-node-starter/commit/9c4161509acf49e56042383c9ea340f68f248582)
-1. Replaced custom [ESLint](https://eslint.org/) Config with a [Shareable Config](https://eslint.org/docs/latest/developer-guide/shareable-configs) (https://github.com/bennycode/ts-node-starter/commit/eef59275e91f6f484f7a917fdd87b09318ebbad3)
-1. Replaced [@types/jest](https://www.npmjs.com/package/@types/jest) with [@jest/globals](https://jestjs.io/docs/getting-started#type-definitions) (https://github.com/bennycode/ts-node-starter/commit/73c5bc246de79ca2cc805a8b61e42bec39cb97fd)
-1. Replaced [Yarn 1](https://classic.yarnpkg.com/) with [npm](https://www.npmjs.com/) (https://github.com/bennycode/ts-node-starter/commit/153b726761db302fa3ba57ed1d71aabae01d8394)
-1. Replaced [pretty-quick](https://www.npmjs.com/package/pretty-quick) with [Prettier 3](https://prettier.io/) (https://github.com/bennycode/ts-node-starter/commit/7623ba894e6767d7da8ce5b8a1e2469639bcb027)
+1. Replaced [EditorConfig](https://editorconfig.org/) with [Prettier](https://prettier.io/) ([2e24f7b](https://github.com/bennycode/ts-node-starter/commit/2e24f7be5f427c26d6cc8281438a6398a211b75c))
+1. Replaced [Jasmine](https://jasmine.github.io/) with [Jest](https://jestjs.io/) ([41e9b42](https://github.com/bennycode/ts-node-starter/commit/41e9b42bb5b7ca364dbbabf1104955090003d1be))
+1. Replaced [action-dependabot-auto-merge](https://github.com/ahmadnassri/action-dependabot-auto-merge) with [Dependabot](https://github.com/dependabot) & [GitHub CLI](https://cli.github.com/) ([86d5696](https://github.com/bennycode/ts-node-starter/commit/86d5696113c2fb4907a1666e25d1b72d698b06a5))
+1. Replaced [husky](https://github.com/typicode/husky) with [Lefthook](https://github.com/evilmartians/lefthook) ([9c41615](https://github.com/bennycode/ts-node-starter/commit/9c4161509acf49e56042383c9ea340f68f248582))
+1. Replaced custom [ESLint](https://eslint.org/) Config with a [Shareable Config](https://eslint.org/docs/latest/developer-guide/shareable-configs) ([eef5927](https://github.com/bennycode/ts-node-starter/commit/eef59275e91f6f484f7a917fdd87b09318ebbad3))
+1. Replaced [@types/jest](https://www.npmjs.com/package/@types/jest) with [@jest/globals](https://jestjs.io/docs/getting-started#type-definitions) ([73c5bc2](https://github.com/bennycode/ts-node-starter/commit/73c5bc246de79ca2cc805a8b61e42bec39cb97fd))
+1. Replaced [Yarn 1](https://classic.yarnpkg.com/) with [npm](https://www.npmjs.com/) ([153b726](https://github.com/bennycode/ts-node-starter/commit/153b726761db302fa3ba57ed1d71aabae01d8394))
+1. Replaced [pretty-quick](https://www.npmjs.com/package/pretty-quick) with [Prettier 3](https://prettier.io/) ([7623ba8](https://github.com/bennycode/ts-node-starter/commit/7623ba894e6767d7da8ce5b8a1e2469639bcb027))
+1. Replaced [Jest](https://jestjs.io/) with [Vitest](https://vitest.dev/) ([662dddf](https://github.com/bennycode/ts-node-starter/commit/662dddf92d418d0e1119a04d8f5fe807a7a566f0))
 
 ## Contributors
 
