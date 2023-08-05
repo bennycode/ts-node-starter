@@ -1,5 +1,5 @@
 import {describe, expect, it} from 'vitest';
-import {sayHello} from './sayHello';
+import {sayHello} from './sayHello.js';
 
 describe('sayHello', () => {
   it('prints to the console', () => {

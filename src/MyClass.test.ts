@@ -1,5 +1,5 @@
 import {describe, it, expect} from 'vitest';
-import {MyClass} from './MyClass';
+import {MyClass} from './MyClass.js';
 
 describe('MyClass', () => {
   describe('returnHello', () => {
