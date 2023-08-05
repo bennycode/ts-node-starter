@@ -95,6 +95,7 @@ Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubles
 1. Replaced [Yarn 1](https://classic.yarnpkg.com/) with [npm](https://www.npmjs.com/) ([153b726](https://github.com/bennycode/ts-node-starter/commit/153b726761db302fa3ba57ed1d71aabae01d8394))
 1. Replaced [pretty-quick](https://www.npmjs.com/package/pretty-quick) with [Prettier 3](https://prettier.io/) ([7623ba8](https://github.com/bennycode/ts-node-starter/commit/7623ba894e6767d7da8ce5b8a1e2469639bcb027))
 1. Replaced [Jest](https://jestjs.io/) with [Vitest](https://vitest.dev/) ([662dddf](https://github.com/bennycode/ts-node-starter/commit/662dddf92d418d0e1119a04d8f5fe807a7a566f0))
+1. Replaced [CommonJS](https://nodejs.org/api/modules.html) with [EcmaScript Modules](https://nodejs.org/api/esm.html) ([0cae631](https://github.com/bennycode/ts-node-starter/commit/0cae631ca6457026919418ddb3a10f7858e9ad55))
 
 ## Contributors
 
