@@ -22,9 +22,6 @@ updates:
       prefix: 'chore'
       include: 'scope'
     ignore:
-      - dependency-name: 'prettier'
-        versions:
-          - '>= 3'
       - dependency-name: '@types/node'
         versions:
           - '>= 19'
