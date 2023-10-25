@@ -1,6 +1,6 @@
 {
   "bin": {
-    "ts-node-starter": "dist/cli.js"
+    "ts-node-starter": "dist/src/cli.js"
   },
   "bugs": {
     "url": "https://github.com/bennycode/ts-node-starter/issues"
