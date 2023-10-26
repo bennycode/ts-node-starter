@@ -25,7 +25,7 @@
     "node": ">= 10.9"
   },
   "files": [
-    "dist",
+    "dist/src",
     "!dist/**/*.test.*"
   ],
   "homepage": "https://www.npmjs.com/package/ts-node-starter",
