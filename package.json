@@ -40,7 +40,7 @@
     "check": "npm run check:format -- --list-different && npm run check:lint",
     "check:format": "prettier --ignore-path .gitignore --log-level error .",
     "check:lint": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx --no-error-on-unmatched-pattern .",
-    "clean": "rimraf .nyc_output coverage dist",
+    "clean": "rimraf coverage dist",
     "deploy": "exit 0",
     "dev": "node --inspect --loader ts-node/esm ./src/start.ts",
     "dist": "npm run clean && npm run build",
