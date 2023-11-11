@@ -96,6 +96,7 @@ Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubles
 1. Replaced [pretty-quick](https://www.npmjs.com/package/pretty-quick) with [Prettier 3](https://prettier.io/) ([7623ba8](https://github.com/bennycode/ts-node-starter/commit/7623ba894e6767d7da8ce5b8a1e2469639bcb027))
 1. Replaced [Jest](https://jestjs.io/) with [Vitest](https://vitest.dev/) ([662dddf](https://github.com/bennycode/ts-node-starter/commit/662dddf92d418d0e1119a04d8f5fe807a7a566f0))
 1. Replaced [CommonJS](https://nodejs.org/api/modules.html) with [EcmaScript Modules](https://nodejs.org/api/esm.html) ([0cae631](https://github.com/bennycode/ts-node-starter/commit/0cae631ca6457026919418ddb3a10f7858e9ad55))
+1. Replaced imports with [Vitest Globals](https://vitest.dev/config/#globals) ([6b273c3](https://github.com/bennycode/ts-node-starter/commit/6b273c3c09552d5aa829f48987c1c1dcf7a93ce9))
 
 ## Contributors
 
