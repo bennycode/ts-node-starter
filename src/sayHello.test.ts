@@ -1,4 +1,3 @@
-import {describe, expect, it} from 'vitest';
 import {sayHello} from './sayHello.js';
 
 describe('sayHello', () => {
