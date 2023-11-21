@@ -1,24 +1,27 @@
+### 0.3.0 (2023-11-21)
+
 ### 0.2.0 (2023-11-21)
 
 ### 0.1.0 (2023-11-21)
 
 ##### Documentation Changes
 
-* Generated public docs ([1f2b6c1f](https://github.com/bennycode/ts-node-starter/commit/1f2b6c1f8b2559c0a33c9e62f6d600bac57359a1))
-- updated CHANGELOG.md ([6f74ca97](https://github.com/bennycode/ts-node-starter/commit/6f74ca97631cead4414ea4a4ad4bcc3c1f2b13dd))
-- Generated public docs ([331ee28b](https://github.com/bennycode/ts-node-starter/commit/331ee28bfc48c8d5749ecff334ac6dedb19cf7de))
-- updated CHANGELOG.md ([377f7e81](https://github.com/bennycode/ts-node-starter/commit/377f7e812e6c2b6db6520cc4e5c3f170712ff6c4))
-- Use Vitest Globals ([cfb8e764](https://github.com/bennycode/ts-node-starter/commit/cfb8e76453baa81bffbd602bb570f16b8699657b))
-- Switch to EcmaScript Modules (ESM) ([3c6c51e4](https://github.com/bennycode/ts-node-starter/commit/3c6c51e4ee70fd44e3723f04eb7f1dc115261310))
-- Replaced Jest with Vitest ([46cd7423](https://github.com/bennycode/ts-node-starter/commit/46cd74238a84e6618b70a312c60d6ad03e98220b))
-- Replaced pretty-quick with Prettier 3 ([84267658](https://github.com/bennycode/ts-node-starter/commit/842676587b6a5f0347ac521db1022763b0905e1e))
-- Replace yarn with npm ([16dd53e6](https://github.com/bennycode/ts-node-starter/commit/16dd53e6d325c9eb4003b0b0fc440440941f7617))
-- Use direct Jest global APIs ([23206dae](https://github.com/bennycode/ts-node-starter/commit/23206daef8b23947440c1d58ba6cb1e661d78404))
-- List Shareable Config ([032bed00](https://github.com/bennycode/ts-node-starter/commit/032bed00fe630b55f485b7e223e8d94eae83bac4))
-- List important refactorings ([b227dafb](https://github.com/bennycode/ts-node-starter/commit/b227dafbfe6b7988465c2ec3ebb1ee4289a3a839))
-- Mention project name ([39ea6c3a](https://github.com/bennycode/ts-node-starter/commit/39ea6c3a05a87acf1065143ed942d9ac6dabd590))
-- Replace project name ([352ffd21](https://github.com/bennycode/ts-node-starter/commit/352ffd2169ef1040a4fa750d55f8a1af86fbd695))
-- Describe template repository ([1cc0516f](https://github.com/bennycode/ts-node-starter/commit/1cc0516f6bccf7ea7d91a8c5174bbae55a6e2c27))
+- Generated public docs ([1f2b6c1f](https://github.com/bennycode/ts-node-starter/commit/1f2b6c1f8b2559c0a33c9e62f6d600bac57359a1))
+
+* updated CHANGELOG.md ([6f74ca97](https://github.com/bennycode/ts-node-starter/commit/6f74ca97631cead4414ea4a4ad4bcc3c1f2b13dd))
+* Generated public docs ([331ee28b](https://github.com/bennycode/ts-node-starter/commit/331ee28bfc48c8d5749ecff334ac6dedb19cf7de))
+* updated CHANGELOG.md ([377f7e81](https://github.com/bennycode/ts-node-starter/commit/377f7e812e6c2b6db6520cc4e5c3f170712ff6c4))
+* Use Vitest Globals ([cfb8e764](https://github.com/bennycode/ts-node-starter/commit/cfb8e76453baa81bffbd602bb570f16b8699657b))
+* Switch to EcmaScript Modules (ESM) ([3c6c51e4](https://github.com/bennycode/ts-node-starter/commit/3c6c51e4ee70fd44e3723f04eb7f1dc115261310))
+* Replaced Jest with Vitest ([46cd7423](https://github.com/bennycode/ts-node-starter/commit/46cd74238a84e6618b70a312c60d6ad03e98220b))
+* Replaced pretty-quick with Prettier 3 ([84267658](https://github.com/bennycode/ts-node-starter/commit/842676587b6a5f0347ac521db1022763b0905e1e))
+* Replace yarn with npm ([16dd53e6](https://github.com/bennycode/ts-node-starter/commit/16dd53e6d325c9eb4003b0b0fc440440941f7617))
+* Use direct Jest global APIs ([23206dae](https://github.com/bennycode/ts-node-starter/commit/23206daef8b23947440c1d58ba6cb1e661d78404))
+* List Shareable Config ([032bed00](https://github.com/bennycode/ts-node-starter/commit/032bed00fe630b55f485b7e223e8d94eae83bac4))
+* List important refactorings ([b227dafb](https://github.com/bennycode/ts-node-starter/commit/b227dafbfe6b7988465c2ec3ebb1ee4289a3a839))
+* Mention project name ([39ea6c3a](https://github.com/bennycode/ts-node-starter/commit/39ea6c3a05a87acf1065143ed942d9ac6dabd590))
+* Replace project name ([352ffd21](https://github.com/bennycode/ts-node-starter/commit/352ffd2169ef1040a4fa750d55f8a1af86fbd695))
+* Describe template repository ([1cc0516f](https://github.com/bennycode/ts-node-starter/commit/1cc0516f6bccf7ea7d91a8c5174bbae55a6e2c27))
 
 ##### New Features
 
