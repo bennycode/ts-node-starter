@@ -70,9 +70,17 @@ I recommend to colocate your test code with your source code by naming your test
 
 The automatic changelog generation is based on [Semantic Commit Messages](https://sparkbox.com/foundry/semantic_commit_messages). Simply use the suggested prefixes in your commit messages to make use of it. For example, if you commit a new feature use the "feat" prefix:
 
-**Commit Message**
+**Commit Message:**
 
 > feat: My new feature
+
+If you are introducing a breaking change, add an exclamation mark (`!`) after the type or scope of your commit message:
+
+**Example:**
+
+> refactoring!: Make file handlers asynchronous
+
+This is as per [breaking change definition](https://www.conventionalcommits.org/en/v1.0.0/#commit-message-with--to-draw-attention-to-breaking-change) of Conventional Commits 1.0.0.
 
 ## Troubleshooting
 
@@ -83,6 +91,12 @@ npx lefthook install -a
 ```
 
 Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubleshooting)
+
+## Inspiring Templates
+
+Other inspiring Node.js templates:
+
+- https://github.com/JoshuaKGoldberg/create-typescript-app
 
 ## Important Refactorings
 
