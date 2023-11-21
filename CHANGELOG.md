@@ -1,8 +1,10 @@
+### 0.2.0 (2023-11-21)
+
 ### 0.1.0 (2023-11-21)
 
 ##### Documentation Changes
 
-- Generated public docs ([1f2b6c1f](https://github.com/bennycode/ts-node-starter/commit/1f2b6c1f8b2559c0a33c9e62f6d600bac57359a1))
+-           Generated public docs ([1f2b6c1f](https://github.com/bennycode/ts-node-starter/commit/1f2b6c1f8b2559c0a33c9e62f6d600bac57359a1))
 - updated CHANGELOG.md ([6f74ca97](https://github.com/bennycode/ts-node-starter/commit/6f74ca97631cead4414ea4a4ad4bcc3c1f2b13dd))
 - Generated public docs ([331ee28b](https://github.com/bennycode/ts-node-starter/commit/331ee28bfc48c8d5749ecff334ac6dedb19cf7de))
 - updated CHANGELOG.md ([377f7e81](https://github.com/bennycode/ts-node-starter/commit/377f7e812e6c2b6db6520cc4e5c3f170712ff6c4))
