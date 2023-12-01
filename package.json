@@ -19,7 +19,7 @@
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.1",
     "typedoc": "^0.25.4",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.2",
     "vitest": "^0.34.6"
   },
   "files": [
