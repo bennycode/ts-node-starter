@@ -88,7 +88,7 @@ This is as per [breaking change definition](https://www.conventionalcommits.org/
 If you're having trouble with the Git pre-commit hook, then reinstall the hook using the following command:
 
 ```bash
-npx lefthook install -a
+npx lefthook install --force
 ```
 
 Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubleshooting)
