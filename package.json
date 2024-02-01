@@ -15,7 +15,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^8.56.0",
     "generate-changelog": "^1.8.0",
-    "prettier": "^3.1.1",
+    "prettier": "^3.2.4",
     "rimraf": "^5.0.5",
     "tsimp": "^2.0.10",
     "typedoc": "^0.25.4",
