@@ -3,7 +3,8 @@
 .cache
 .DS_Store
 .idea/
-.vscode/*
+.tsimp/
+.vscode/
 !.vscode/settings.json
 config.json
 coverage/
