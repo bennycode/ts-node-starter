@@ -112,6 +112,7 @@ Other inspiring Node.js templates:
 1. Replaced [Jest](https://jestjs.io/) with [Vitest](https://vitest.dev/) ([662dddf](https://github.com/bennycode/ts-node-starter/commit/662dddf92d418d0e1119a04d8f5fe807a7a566f0))
 1. Replaced [CommonJS](https://nodejs.org/api/modules.html) with [EcmaScript Modules](https://nodejs.org/api/esm.html) ([0cae631](https://github.com/bennycode/ts-node-starter/commit/0cae631ca6457026919418ddb3a10f7858e9ad55))
 1. Replaced imports with [Vitest Globals](https://vitest.dev/config/#globals) ([6b273c3](https://github.com/bennycode/ts-node-starter/commit/6b273c3c09552d5aa829f48987c1c1dcf7a93ce9))
+1. Replaced [ts-node](https://github.com/TypeStrong/ts-node) with [tsimp](https://github.com/tapjs/tsimp) ([5db7e0c](https://github.com/bennycode/ts-node-starter/commit/bb74b2df59ecf41b3e0588df74ba2d4dcd830b44))
 
 ## Contributors
 
