@@ -4,6 +4,6 @@
     "outDir": "dist",
     "types": ["vitest/globals"]
   },
-  "exclude": ["vitest.config.ts"],
+  "include": ["src/**/*", "vitest.config.ts"],
   "extends": "@tstv/tsconfig-common/tsconfig.json"
 }
