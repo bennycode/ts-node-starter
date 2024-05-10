@@ -93,6 +93,14 @@ npx lefthook install --force
 
 Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubleshooting)
 
+## Updates
+
+The dependencies of this boilerplate are updated regularly. If you prefer to update them yourself, you can also run the following command:
+
+```bash
+npm update --save
+```
+
 ## Inspiring Templates
 
 Other inspiring Node.js templates:
