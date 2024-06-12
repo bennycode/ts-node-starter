@@ -4,6 +4,6 @@ export class User {
   constructor(
     public name: string,
     public limit: Money,
-    public supervisior: User
+    public supervisior?: User
   ) {}
 }
