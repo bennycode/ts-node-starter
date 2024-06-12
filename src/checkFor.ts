@@ -1,5 +1,5 @@
 import type {Money} from './Money.js';
-import {Payment} from './Payment.js';
+import type {Payment} from './Payment.js';
 import {PaymentAuth} from './PaymentAuth.js';
 import type {User} from './User.js';
 
