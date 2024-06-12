@@ -5,20 +5,15 @@ import type {User} from './User.js';
 
 export const primaryApprover = (initiator: User, amount: Money) => {
   let supervisior = initiator.supervisior;
-  if (!supervisior) {
-    return initiator;
-  }
-  let limit = supervisior.limit;
-  const maxIterations = 10;
-  for (let i = 0; i < maxIterations; i++) {
-    if (amount.compareTo(limit) > 0) {
-      if (supervisior) {
-        supervisior = supervisior.supervisior;
-        limit = supervisior!.limit;
-      }
+
+  while (supervisior) {
+    if (!amount.exceedsLimit(supervisior.limit)) {
+      return supervisior;
     }
+    supervisior = supervisior.supervisior;
   }
-  return supervisior;
+
+  return initiator;
 };
 
 export const checkFor = (payment: Payment) => {
@@ -26,13 +21,12 @@ export const checkFor = (payment: Payment) => {
   const initiator = payment.initiator;
   const amount = payment.amount;
   const limit = initiator.limit;
-  if (amount.compareTo(limit) <= 0) {
-    paymentAuth.approvalNeeded = false;
-  }
-  if (amount.compareTo(limit) > 0) {
+  if (amount.exceedsLimit(limit)) {
     paymentAuth.approvalNeeded = true;
     const approver = primaryApprover(initiator, amount);
     paymentAuth.primaryApprover = approver;
+  } else {
+    paymentAuth.approvalNeeded = false;
   }
   return paymentAuth;
 };

@@ -10,4 +10,11 @@ export class Money {
   compareTo(other: Money) {
     return this.toDecimal() - other.toDecimal();
   }
+  exceedsLimit(limit: Money) {
+    if (this.compareTo(limit) > 0) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
