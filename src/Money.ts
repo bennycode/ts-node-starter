@@ -13,8 +13,7 @@ export class Money {
   exceedsLimit(limit: Money) {
     if (this.compareTo(limit) > 0) {
       return true;
-    } else {
-      return false;
     }
+    return false;
   }
 }
