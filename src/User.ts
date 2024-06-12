@@ -1,4 +1,4 @@
-import {Money} from './Money.js';
+import type {Money} from './Money.js';
 
 export class User {
   constructor(

@@ -1,5 +1,5 @@
-import {Money} from './Money.js';
-import {User} from './User.js';
+import type {Money} from './Money.js';
+import type {User} from './User.js';
 
 export const primaryApprover = (initiator: User, amount: Money) => {
   let supervisior = initiator.supervisior;
