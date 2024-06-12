@@ -13,3 +13,7 @@ dist/
 lerna-debug.log
 node_modules/
 npm-debug.log*
+
+# stryker temp files
+.stryker-tmp
+reports/
