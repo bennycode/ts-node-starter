@@ -1,20 +1,7 @@
+import {PaymentAuth} from './PaymentAuth.js';
 import type {Money} from './Money.js';
 import type {Payment} from './Payment.js';
-import {PaymentAuth} from './PaymentAuth.js';
 import type {User} from './User.js';
-
-export const primaryApprover = (initiator: User, amount: Money) => {
-  let supervisior = initiator.supervisior;
-
-  while (supervisior) {
-    if (!amount.exceedsLimit(supervisior.limit)) {
-      return supervisior;
-    }
-    supervisior = supervisior.supervisior;
-  }
-
-  return initiator;
-};
 
 export const checkFor = (payment: Payment) => {
   const paymentAuth = new PaymentAuth();
@@ -29,4 +16,17 @@ export const checkFor = (payment: Payment) => {
     paymentAuth.approvalNeeded = false;
   }
   return paymentAuth;
+};
+
+export const primaryApprover = (initiator: User, amount: Money) => {
+  let supervisior = initiator.supervisior;
+
+  while (supervisior) {
+    if (!amount.exceedsLimit(supervisior.limit)) {
+      return supervisior;
+    }
+    supervisior = supervisior.supervisior;
+  }
+
+  return initiator;
 };
