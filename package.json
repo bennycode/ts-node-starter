@@ -60,6 +60,7 @@
     "release:revert": "npm unpublish @bennycode/ts-node-starter",
     "start": "cross-env TSIMP_DIAG=error node --import=tsimp/import ./src/start.ts",
     "test": "npm run test:types && npm run test:unit:coverage",
+    "test:mutants": "stryker run",
     "test:types": "tsc --noEmit",
     "test:unit": "vitest run --passWithNoTests",
     "test:unit:coverage": "npm run test:unit -- --coverage.enabled"
