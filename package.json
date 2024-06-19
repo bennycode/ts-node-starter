@@ -30,7 +30,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "dist/index.js",
-  "name": "@bennycode/ts-node-starter",
+  "name": "ts-node-starter",
   "private": false,
   "repository": {
     "type": "git",
@@ -56,7 +56,7 @@
     "release:major": "generate-changelog -M -x \"chore,test\" && npm run docs && npm run commit && npm version major",
     "release:minor": "generate-changelog -m -x \"chore,test\" && npm run docs && npm run commit && npm version minor",
     "release:patch": "generate-changelog -p -x \"chore,test\" && npm run docs && npm run commit && npm version patch",
-    "release:revert": "npm unpublish @bennycode/ts-node-starter",
+    "release:revert": "npm unpublish ts-node-starter",
     "start": "cross-env TSIMP_DIAG=error node --import=tsimp/import ./src/start.ts",
     "test": "npm run test:types && npm run test:unit:coverage",
     "test:types": "tsc --noEmit",

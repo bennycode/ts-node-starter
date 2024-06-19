@@ -30,9 +30,11 @@ Using this template, you can build **standalone apps**, **libraries** and/or **C
 ### Make it your own
 
 1. Replace all occurrences of "bennycode" with your own username (or organization name)
-2. Replace all occurrences of "ts-node-starter" with your project name (or repository name)
-3. Start writing your code in the ["src" directory](./src)
-4. Run `npm install` and be happy! 😊
+1. Replace all occurrences of "ts-node-starter" with your project name (or repository name)
+1. Delete [CHANGELOG.md](./CHANGELOG.md)
+1. Delete [FUNDING.yml](./.github/FUNDING.yml)
+1. Start writing your code in the ["src" directory](./src)
+1. Run `npm install` and be happy! 😊
 
 ### Build a standalone app
 
