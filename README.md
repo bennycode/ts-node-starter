@@ -22,6 +22,11 @@ Using this template, you can build **standalone apps**, **libraries** and/or **C
 
 ## Usage
 
+> [!TIP]  
+> You can use this boilerplate for your own purposes. Just follow the steps below.
+>
+> By the way, if you like this style, check out other [alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts) possible with [GitHub's Flavored Markdown Spec](https://github.github.com/gfm/).
+
 ### Make it your own
 
 1. Replace all occurrences of "bennycode" with your own username (or organization name)
