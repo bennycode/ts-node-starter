@@ -1,6 +1,6 @@
 {
   "bin": {
-    "ts-node-starter": "dist/cli.js"
+    "ts-node-starter": "dist/src/cli.js"
   },
   "bugs": {
     "url": "https://github.com/bennycode/ts-node-starter/issues"
@@ -23,13 +23,13 @@
     "vitest": "^1.6.0"
   },
   "files": [
-    "dist",
+    "dist/src",
     "!dist/**/*.test.*"
   ],
   "homepage": "https://www.npmjs.com/package/ts-node-starter",
   "keywords": [],
   "license": "UNLICENSED",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "name": "ts-node-starter",
   "private": false,
   "repository": {
