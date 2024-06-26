@@ -5,6 +5,10 @@ on:
     tags:
       - 'v*.*.*'
 
+# https://github.com/softprops/action-gh-release/tree/v2.0.6?tab=readme-ov-file#permissions
+permissions:
+  contents: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
