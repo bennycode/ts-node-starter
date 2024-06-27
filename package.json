@@ -1,6 +1,6 @@
 {
   "bin": {
-    "ts-node-starter": "dist/src/cli.js"
+    "ts-node-starter": "dist/cli.js"
   },
   "bugs": {
     "url": "https://github.com/bennycode/ts-node-starter/issues"
@@ -9,7 +9,7 @@
   "devDependencies": {
     "@evilmartians/lefthook": "^1.6.16",
     "@tstv/eslint-config": "^3.2.2",
-    "@tstv/tsconfig-common": "^3.5.0",
+    "@tstv/tsconfig-common": "^3.6.0",
     "@types/node": "^20.14.5",
     "@vitest/coverage-v8": "^1.6.0",
     "cross-env": "^7.0.3",
@@ -18,18 +18,18 @@
     "prettier": "^3.3.2",
     "rimraf": "^5.0.7",
     "tsimp": "^2.0.11",
-    "typedoc": "^0.25.13",
-    "typescript": "^5.4.5",
+    "typedoc": "^0.26.2",
+    "typescript": "^5.5.2",
     "vitest": "^1.6.0"
   },
   "files": [
-    "dist/src",
+    "dist",
     "!dist/**/*.test.*"
   ],
   "homepage": "https://www.npmjs.com/package/ts-node-starter",
   "keywords": [],
   "license": "UNLICENSED",
-  "main": "dist/src/index.js",
+  "main": "dist/index.js",
   "name": "ts-node-starter",
   "private": false,
   "repository": {
@@ -43,7 +43,7 @@
     "check:lint": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx --no-error-on-unmatched-pattern .",
     "clean": "rimraf .tsimp coverage dist docs",
     "commit": "npm run fix && git commit -am \"chore: Generated release files\"",
-    "deploy": "exit 0",
+    "deploy": "npm pack",
     "dev": "cross-env TSIMP_DIAG=error node --inspect --import=tsimp/import ./src/start.ts",
     "dist": "npm run clean && npm run build",
     "docs": "npm run docs:build",
@@ -59,7 +59,7 @@
     "release:revert": "npm unpublish ts-node-starter",
     "start": "cross-env TSIMP_DIAG=error node --import=tsimp/import ./src/start.ts",
     "test": "npm run test:types && npm run test:unit:coverage",
-    "test:types": "tsc --noEmit",
+    "test:types": "tsc --project tsconfig.check.json",
     "test:unit": "vitest run --passWithNoTests",
     "test:unit:coverage": "npm run test:unit -- --coverage.enabled"
   },
