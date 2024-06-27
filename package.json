@@ -1,6 +1,6 @@
 {
   "bin": {
-    "ts-node-starter": "dist/src/cli.js"
+    "ts-node-starter": "dist/cli.js"
   },
   "bugs": {
     "url": "https://github.com/bennycode/ts-node-starter/issues"
@@ -23,7 +23,7 @@
     "vitest": "^1.6.0"
   },
   "files": [
-    "dist/src",
+    "dist",
     "!dist/**/*.test.*"
   ],
   "homepage": "https://www.npmjs.com/package/ts-node-starter",
