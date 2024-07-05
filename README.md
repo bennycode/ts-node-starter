@@ -14,6 +14,7 @@ Using this template, you can build **standalone apps**, **libraries** and/or **C
 1. **Continuous integration** powered by [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows)
 1. **Dependency management** powered by [npm](https://www.npmjs.com/)
 1. **Unit testing** powered by [Vitest](https://vitest.dev/)
+1. **Type testing** powered by [attw](https://arethetypeswrong.github.io/)
 1. **Code coverage** powered by [v8](https://v8.dev/blog/javascript-code-coverage)
 1. **Code coverage reports** powered by [Codecov](https://about.codecov.io/)
 1. **Type checking** powered by [TypeScript](https://www.typescriptlang.org/)
