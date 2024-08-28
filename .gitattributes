@@ -6,6 +6,7 @@
 *.jar binary
 *.jpg binary
 *.otf binary
+*.pdf binary
 *.png binary
 *.svg binary
 *.ttf binary
