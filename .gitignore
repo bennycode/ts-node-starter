@@ -3,7 +3,6 @@
 .cache
 .DS_Store
 .idea/
-.tsimp/
 .vscode/
 !.vscode/extensions.json
 !.vscode/settings.json
