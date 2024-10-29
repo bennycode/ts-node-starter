@@ -1,10 +1,20 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "ts-node": {
+    "transpileOnly": true
+  },
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist",
-    "types": ["vitest/globals"]
+    "types": [
+      "vitest/globals"
+    ]
   },
-  "exclude": ["coverage", "dist", "docs", "vitest.config.ts"],
+  "exclude": [
+    "coverage",
+    "dist",
+    "docs",
+    "vitest.config.ts"
+  ],
   "extends": "@tstv/tsconfig-common/tsconfig.json"
 }
