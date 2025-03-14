@@ -3,8 +3,16 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist",
-    "types": ["vitest/globals"]
+    "types": [
+      "vitest/globals"
+    ]
   },
-  "exclude": ["coverage", "dist", "docs", "vitest.config.ts"],
+  "exclude": [
+    "coverage",
+    "dist",
+    "docs",
+    "eslint.config.mjs",
+    "vitest.config.ts"
+  ],
   "extends": "@tstv/tsconfig-common/tsconfig.json"
 }
