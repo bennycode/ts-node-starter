@@ -10,7 +10,7 @@
     "@arethetypeswrong/cli": "^0.17.4",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.22.0",
-    "@evilmartians/lefthook": "^1.11.4",
+    "lefthook": "^1.11.4",
     "@tstv/eslint-config": "^3.2.4",
     "@tstv/tsconfig-common": "^3.7.0",
     "@types/node": "^22.13.13",
