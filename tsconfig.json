@@ -1,10 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
+    "noUnusedLocals": false,
     "rootDir": "src",
     "outDir": "dist",
     "types": ["vitest/globals"]
   },
-  "exclude": ["coverage", "dist", "docs", "eslint.config.mjs", "vitest.config.ts"],
+  "exclude": ["coverage", "dist", "docs", "eslint.config.mjs", "vitest.config.ts", "migrations"],
   "extends": "@tstv/tsconfig-common/tsconfig.json"
 }

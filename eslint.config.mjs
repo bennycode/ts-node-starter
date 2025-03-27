@@ -13,7 +13,14 @@ const compat = new FlatCompat({
 
 export default [
   {
-    ignores: ['**/coverage', '**/.dependency-cruiser.cjs', '**/docs', '**/vitest.config.ts'],
+    ignores: [
+      '**/coverage',
+      '**/.dependency-cruiser.cjs',
+      '**/docs',
+      '**/vitest.config.ts',
+      'migrations',
+      'eslint.config.mjs',
+    ],
   },
   ...compat.extends('@tstv/eslint-config'),
 ];

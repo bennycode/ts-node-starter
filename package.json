@@ -10,7 +10,6 @@
     "@arethetypeswrong/cli": "^0.17.4",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.22.0",
-    "lefthook": "^1.11.4",
     "@tstv/eslint-config": "^3.2.4",
     "@tstv/tsconfig-common": "^3.7.0",
     "@types/node": "^22.13.13",
@@ -19,6 +18,7 @@
     "dependency-cruiser": "^16.10.0",
     "eslint": "^9.23.0",
     "generate-changelog": "^1.8.0",
+    "lefthook": "^1.11.4",
     "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
@@ -69,5 +69,11 @@
     "test:unit:coverage": "npm run test:unit -- --coverage"
   },
   "type": "module",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "dependencies": {
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "tsx": "^4.19.3",
+    "zod": "^3.24.2"
+  }
 }
