@@ -1,19 +1,15 @@
-import path from 'node:path';
-import {fileURLToPath} from 'node:url';
-import js from '@eslint/js';
-import {FlatCompat} from '@eslint/eslintrc';
+import {defineConfig} from 'eslint/config';
+import eslintConfig from '@tstv/eslint-config';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
-  allConfig: js.configs.all,
+export default defineConfig({
+  files: ['**/*.{ts,tsx,mts,cts,js,jsx,mjs,cjs}'],
+  ignores: [
+    '**/.dependency-cruiser.cjs',
+    '**/coverage/**',
+    '**/dist/**',
+    '**/docs/**',
+    '**/eslint.config.mjs',
+    '**/vitest.config.ts',
+  ],
+  extends: [eslintConfig],
 });
-
-export default [
-  {
-    ignores: ['**/coverage', '**/.dependency-cruiser.cjs', '**/docs', '**/vitest.config.ts'],
-  },
-  ...compat.extends('@tstv/eslint-config'),
-];
