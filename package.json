@@ -11,7 +11,7 @@
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.22.0",
     "lefthook": "^1.11.4",
-    "@tstv/eslint-config": "^3.2.4",
+    "@tstv/eslint-config": "^4.0.0",
     "@tstv/tsconfig-common": "^3.7.0",
     "@types/node": "^22.13.13",
     "@vitest/coverage-v8": "^3.0.9",
