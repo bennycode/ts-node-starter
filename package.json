@@ -55,7 +55,7 @@
     "fix": "npm run fix:format && npm run fix:lint",
     "fix:format": "npm run check:format -- --write",
     "fix:lint": "npm run check:lint -- --fix --quiet",
-    "postversion": "git push origin && git push origin --tags && npm publish --access public && git reset --hard",
+    "postversion": "git push origin && git push origin --tags && npm publish --access public && git restore .",
     "preversion": "git checkout main && git pull && npm install && npm run test && npm run dist",
     "release:major": "generate-changelog -M -x \"chore,test\" && npm run docs && npm run commit && npm version major",
     "release:minor": "generate-changelog -m -x \"chore,test\" && npm run docs && npm run commit && npm version minor",
