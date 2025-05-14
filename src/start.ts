@@ -14,6 +14,6 @@ app.get('/', (_, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Hello from directory: ${import.meta.dirname}`);
+  console.log(`Serving code from ${import.meta.dirname}`);
   console.log(`Server running at http://localhost:${port}`);
 });
