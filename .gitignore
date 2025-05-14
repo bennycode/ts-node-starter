@@ -5,6 +5,7 @@
 .idea/
 .vscode/
 !.vscode/extensions.json
+!.vscode/launch.json
 !.vscode/settings.json
 config.json
 coverage/
