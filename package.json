@@ -5,12 +5,15 @@
   "bugs": {
     "url": "https://github.com/bennycode/ts-node-starter/issues"
   },
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "express": "^5.1.0"
+  },
   "description": "",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.4",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.22.0",
-    "lefthook": "^1.11.4",
     "@tstv/eslint-config": "^4.0.0",
     "@tstv/tsconfig-common": "^3.7.0",
     "@types/node": "^22.13.13",
@@ -19,6 +22,7 @@
     "dependency-cruiser": "^16.10.0",
     "eslint": "^9.23.0",
     "generate-changelog": "^1.8.0",
+    "lefthook": "^1.11.4",
     "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
