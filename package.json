@@ -7,7 +7,7 @@
   },
   "description": "",
   "devDependencies": {
-    "@arethetypeswrong/cli": "^0.17.4",
+    "@arethetypeswrong/cli": "^0.18.1",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.22.0",
     "lefthook": "^1.11.4",
