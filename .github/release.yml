@@ -2,21 +2,21 @@
 changelog:
   exclude:
     authors:
-      - 'dependabot'
+      - "dependabot"
   categories:
-    - title: 'New'
+    - title: "New"
       labels:
-        - 'type: feature ✨'
-    - title: 'Improved'
+        - "type: feature ✨"
+    - title: "Improved"
       labels:
-        - 'type: docs 📋'
-        - 'type: style 🎨'
-    - title: 'Fixed'
+        - "type: docs 📋"
+        - "type: style 🎨"
+    - title: "Fixed"
       labels:
-        - 'type: bug(fix) 🐞'
-    - title: 'Documentation'
+        - "type: bug(fix) 🐞"
+    - title: "Documentation"
       labels:
-        - 'type: docs 📋'
-    - title: 'Other Changes'
+        - "type: docs 📋"
+    - title: "Other Changes"
       labels:
-        - '*'
+        - "*"

@@ -12,3 +12,4 @@ dist/
 lerna-debug.log
 node_modules/
 npm-debug.log*
+docs/

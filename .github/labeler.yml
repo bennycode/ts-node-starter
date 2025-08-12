@@ -1,14 +1,14 @@
-'type: bug(fix) 🐞':
+"type: bug(fix) 🐞":
   title: '^fix(\(.+\))?:.*'
-'type: chore 🧹':
+"type: chore 🧹":
   title: '^chore(\(.+\))?:.*'
-'type: docs 📋':
+"type: docs 📋":
   title: '^docs(\(.+\))?:.*'
-'type: feature ✨':
+"type: feature ✨":
   title: '^feat(\(.+\))?:.*'
-'type: refactor 🔧':
+"type: refactor 🔧":
   title: '^refactor(\(.+\))?:.*'
-'type: style 🎨':
+"type: style 🎨":
   title: '^style(\(.+\))?:.*'
-'type: test 🧪':
+"type: test 🧪":
   title: '^test(\(.+\))?:.*'

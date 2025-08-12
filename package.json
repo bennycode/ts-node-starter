@@ -1,70 +1,75 @@
 {
-  "bin": {
-    "ts-node-starter": "dist/cli.js"
-  },
   "bugs": {
-    "url": "https://github.com/bennycode/ts-node-starter/issues"
+    "url": "https://github.com/$GITHUB_OWNER/$GITHUB_REPO/issues"
   },
-  "description": "",
+  "description": "$TEMPLATE_DESCRIPTION",
   "devDependencies": {
-    "@arethetypeswrong/cli": "^0.17.0",
     "@evilmartians/lefthook": "^1.9.0",
-    "@tstv/eslint-config": "^3.2.2",
-    "@tstv/tsconfig-common": "^3.6.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.4",
+    "@semantic-release/npm": "^12.0.2",
+    "@semantic-release/release-notes-generator": "^14.0.3",
     "@types/node": "^22.5.1",
+    "@typescript-eslint/eslint-plugin": "^8.39.1",
+    "@typescript-eslint/parser": "^8.39.1",
     "@vitest/coverage-v8": "^2.0.5",
-    "cross-env": "^7.0.3",
-    "eslint": "^8.57.0",
-    "generate-changelog": "^1.8.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jsonc": "^2.20.1",
+    "globals": "^16.3.0",
     "prettier": "^3.3.3",
-    "rimraf": "^6.0.1",
-    "ts-node": "^10.9.2",
+    "prettier-plugin-organize-imports": "^4.2.0",
+    "semantic-release": "^24.2.7",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.4",
     "typedoc": "^0.27.2",
     "typescript": "^5.5.4",
+    "typescript-eslint": "^8.39.1",
     "vitest": "^2.0.5"
   },
   "files": [
     "dist",
     "!dist/**/*.test.*"
   ],
-  "homepage": "https://www.pnpmjs.com/package/ts-node-starter",
+  "homepage": "https://www.npmjs.com/package/@$GITHUB_OWNER/$GITHUB_REPO",
   "keywords": [],
   "license": "UNLICENSED",
-  "main": "dist/index.js",
-  "name": "ts-node-starter",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "name": "@$GITHUB_OWNER/$GITHUB_REPO",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bennycode/ts-node-starter.git"
+    "url": "git+https://github.com/$GITHUB_OWNER/$GITHUB_REPO.git"
   },
   "scripts": {
-    "build": "tsc",
-    "check": "pnpm run check:format -- --list-different && pnpm run check:lint",
-    "check:format": "prettier --ignore-path .gitignore --log-level error .",
-    "check:lint": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx --no-error-on-unmatched-pattern .",
-    "clean": "rimraf coverage dist docs",
-    "commit": "pnpm run fix && git commit -am \"chore: Generated release files\"",
-    "deploy": "exit 0",
-    "dev": "tsc --noEmit && node --no-warnings=ExperimentalWarning --loader ts-node/esm/transpile-only ./src/start.ts",
-    "dist": "pnpm run clean && pnpm run build && attw --pack . --ignore-rules cjs-resolves-to-esm",
-    "docs": "pnpm run docs:build",
-    "docs:build": "typedoc src/index.ts",
-    "fix": "pnpm run fix:format && pnpm run fix:lint",
-    "fix:format": "pnpm run check:format -- --write",
-    "fix:lint": "pnpm run check:lint -- --fix --quiet",
-    "postversion": "git push origin && git push origin --tags && pnpm publish --access public && git reset --hard",
-    "preversion": "git checkout main && git pull && pnpm install && pnpm run test && pnpm run dist",
-    "release:major": "generate-changelog -M -x \"chore,test\" && pnpm run docs && pnpm run commit && pnpm version major",
-    "release:minor": "generate-changelog -m -x \"chore,test\" && pnpm run docs && pnpm run commit && pnpm version minor",
-    "release:patch": "generate-changelog -p -x \"chore,test\" && pnpm run docs && pnpm run commit && pnpm version patch",
-    "release:revert": "pnpm unpublish ts-node-starter",
-    "start": "tsc --noEmit && node --no-warnings=ExperimentalWarning --loader ts-node/esm/transpile-only ./src/start.ts",
-    "test": "pnpm run test:types && pnpm run test:unit:coverage",
-    "test:types": "tsc --project tsconfig.check.json",
-    "test:unit": "vitest run --passWithNoTests",
-    "test:unit:coverage": "pnpm run test:unit -- --coverage"
+    "build": "tsup",
+    "check": "bun run check:format && bun run check:lint",
+    "check:format": "prettier --check .",
+    "check:lint": "eslint .",
+    "clean": "rm -rf dist docs",
+    "dist": "bun run clean && bun run build",
+    "docs": "typedoc",
+    "fix": "bun run fix:format && bun run fix:lint",
+    "fix:format": "prettier --write .",
+    "fix:lint": "eslint . --fix",
+    "release": "semantic-release",
+    "start": "tsx ./src/start.ts",
+    "test": "bun run test:type && bun run test:unit",
+    "test:type": "tsc",
+    "test:unit": "vitest run --passWithNoTests"
   },
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
+  "packageManager": "bun@1.1.34"
 }
