@@ -7,10 +7,7 @@ Using this template, you can build **standalone apps**, **libraries** and/or **C
 ## Features
 
 1. **Changelog generation** powered by [generate-changelog](https://github.com/lob/generate-changelog)
-1. **Automatic code & config formatting** powered by [Lefthook](https://github.com/evilmartians/lefthook)
 1. **Automatic dependency updates** powered by [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates)
-1. **Config formatting** powered by [Prettier](https://prettier.io/)
-1. **Code linting** powered by [ESLint](https://eslint.org/)
 1. **Continuous integration** powered by [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows)
 1. **Dependency management** powered by [npm](https://www.npmjs.com/)
 1. **Unit testing** powered by [Vitest](https://vitest.dev/)
@@ -90,16 +87,6 @@ If you are introducing a breaking change, add an exclamation mark (`!`) after th
 > refactoring!: Make file handlers asynchronous
 
 This is as per [breaking change definition](https://www.conventionalcommits.org/en/v1.0.0/#commit-message-with--to-draw-attention-to-breaking-change) of Conventional Commits 1.0.0.
-
-## Troubleshooting
-
-If you're having trouble with the Git pre-commit hook, then reinstall the hook using the following command:
-
-```bash
-npx lefthook install --force
-```
-
-Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubleshooting)
 
 ## Updates
 
