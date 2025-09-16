@@ -19,7 +19,6 @@ Using this template, you can build **standalone apps**, **libraries** and/or **C
 1. **Code coverage reports** powered by [Codecov](https://about.codecov.io/)
 1. **Type checking** powered by [TypeScript](https://www.typescriptlang.org/)
 1. **Streamlined scripts** powered by [Conventional Scripts](https://conventionalscripts.org/)
-1. **Documentation generation** powered by [TypeDoc](https://typedoc.org/)
 1. **Dependency violation reports** powered by [dependency-cruiser](https://www.npmjs.com/package/dependency-cruiser)
 
 ## Usage
