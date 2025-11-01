@@ -16,7 +16,7 @@
     "generate-changelog": "^1.8.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2",
-    "vitest": "^3.0.6"
+    "vitest": "^4.0.6"
   },
   "files": ["dist", "!dist/**/*.test.*"],
   "homepage": "https://www.npmjs.com/package/ts-node-starter",
