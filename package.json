@@ -8,14 +8,14 @@
   "description": "",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.2",
-    "@biomejs/biome": "^2.2.4",
+    "@biomejs/biome": "^2.3.8",
     "@tstv/tsconfig-common": "^3.7.1",
-    "@types/node": "^24.5.0",
+    "@types/node": "^24.10.1",
     "@vitest/coverage-v8": "^4.0.15",
-    "dependency-cruiser": "^17.0.1",
+    "dependency-cruiser": "^17.3.2",
     "generate-changelog": "^1.8.0",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.2",
+    "typescript": "^5.9.3",
     "vitest": "^4.0.15"
   },
   "files": [
