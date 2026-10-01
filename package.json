@@ -16,7 +16,7 @@
     "generate-changelog": "^1.8.0",
     "tsx": "^4.21.0",
     "typescript": "^7.0.2",
-    "vitest": "^4.0.15"
+    "vitest": "^5.0.2"
   },
   "files": [
     "dist",
